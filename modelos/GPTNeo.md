@@ -30,6 +30,16 @@ O GPT Neo é avaliado principalmente em tarefas de geração de texto e NLP.
 - Confira diversos artigos feitos pela **EleutherAI**: https://www.eleuther.ai/research
 
 ---
+## 📥 Versões
+
+| **Versão**         | **Camadas** | **Cabeças de Atenção** | **Dimensões Ocultas** | **Dimensões Feed-Forward** | **Parâmetros** |
+|---------------------|-------------|------------------------|------------------------|----------------------------|----------------|
+| GPT Neo 125M       | 12          | 12                     | 768                    | 3072                       | 125 milhões    |
+| GPT Neo 1.3B       | 24          | 16                     | 2048                   | 8192                       | 1,3 bilhões    |
+| GPT Neo 2.7B       | 32          | 20                     | 2560                   | 10240                      | 2,7 bilhões    |
+
+
+---
 ## ✅ Prós
 1. Acessibilidade: Código aberto, permitindo customizações e integrações diversas;
 2. Escalabilidade: Disponível em tamanhos variados, adequados para diferentes aplicações;
