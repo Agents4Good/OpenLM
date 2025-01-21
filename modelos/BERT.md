@@ -139,7 +139,7 @@ print(f"Resposta: {resposta}")
 
 ---
 
-## 📜 Artigos
+## 📜 Fontes
 
 - [Artigo Original do BERT](https://arxiv.org/abs/1810.04805)
 - [Documentação do Hugging Face](https://huggingface.co/docs/transformers/en/model_doc/bert)
