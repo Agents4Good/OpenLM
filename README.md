@@ -21,12 +21,9 @@ O repositório é organizado para facilitar a navegação e o acesso às informa
 
 Contribuições são bem-vindas! Siga os passos abaixo para colaborar:  
 
-1. Faça um fork do repositório.  
-2. Crie uma branch para sua contribuição:  
-   ```bash
-   git checkout -b minha-contribuicao
-   ```
-3. Envie um pull request com sua proposta de alteração.
+1. Faça um fork do repositório;  
+2. Modifique o que desejar e crie um pull request;
+3. Detalhe o pull request. Descreva suas alterações.
 
 ---
 ## 📜 Licença
