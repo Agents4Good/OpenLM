@@ -41,15 +41,24 @@ O GPT Neo é avaliado principalmente em tarefas de geração de texto e NLP.
 
 ---
 ## ✅ Prós
-1. Acessibilidade: Código aberto, permitindo customizações e integrações diversas;
-2. Escalabilidade: Disponível em tamanhos variados, adequados para diferentes aplicações;
-3. Eficiência para tarefas de geração de texto: Altamente eficaz em criar textos criativos e coerentes.
+1. **Acessibilidade**: Código aberto, permitindo customizações e integrações diversas;
+2. **Escalabilidade**: Disponível em tamanhos variados, adequados para diferentes aplicações;
+3. Eficiência para tarefas de **geração de texto**: Altamente eficaz em criar textos criativos e coerentes.
 
 ---
 ## ❌ Contras
-1. Requer hardware robusto: Modelos maiores exigem GPUs ou TPUs para treinamento e inferência;
-2. Menor desempenho em comparação com GPT proprietários: Resultados ligeiramente inferiores aos modelos mais avançados da OpenAI;
-3. Limitação de contexto: Restrições no comprimento de entrada devido ao design da arquitetura.
+1. Requer **hardware robusto**: Modelos maiores exigem GPUs ou TPUs para treinamento e inferência;
+2. **Menor desempenho** em comparação com GPT proprietários: Resultados ligeiramente inferiores aos modelos mais avançados da OpenAI;
+3. **Limitação de contexto**: Restrições no comprimento de entrada devido ao design da arquitetura.
+
+---
+## 💻​ Requisitos Recomendados
+
+| **Versão**         | **Memória RAM** | **Memória da GPU** | **Armazenamento** |
+|---------------------|-----------------|--------------------|-------------------|
+| GPT Neo 125M       | 8 GB            | 4 GB               | 500 MB            |
+| GPT Neo 1.3B       | 16 GB           | 12 GB              | 2 GB              |
+| GPT Neo 2.7B       | 32 GB           | 24 GB              | 5 GB              |
 
 ---
 ## 🚀 Como Usar o GPT Neo
@@ -57,36 +66,66 @@ O GPT Neo é avaliado principalmente em tarefas de geração de texto e NLP.
 ### 1. **Instalação**
 Certifique-se de ter o Python instalado e instale a biblioteca `transformers`:
 ```bash
-pip install transformers
+pip3 install transformers
+
+git clone https://github.com/EleutherAI/GPTNeo
+cd GPTNeo
+pip3 install -r requirements.txt
 ```
 
-### 2. **Carregar o Modelo e o Tokenizer**
+### 2. **Configurar com Parâmetros**
 ```python
-from transformers import GPTNeoForCausalLM, AutoTokenizer
+from transformers import GPTNeoConfig, GPTNeoModel
 
-# Carregar tokenizer e modelo pré-treinado
-modelo = "EleutherAI/gpt-neo-125M"
-tokenizer = AutoTokenizer.from_pretrained(modelo)
-model = GPTNeoForCausalLM.from_pretrained(modelo)
+# Initializing a GPTNeo EleutherAI/gpt-neo-1.3B style configuration
+configuration = GPTNeoConfig()
+
+# Initializing a model (with random weights) from the EleutherAI/gpt-neo-1.3B style configuration
+model = GPTNeoModel(configuration)
+
+# Accessing the model configuration
+configuration = model.config
 ```
 
-### 3. **Geração de Texto**
+### 3. **Uso de Tokens**
 ```python
-# Entrada de exemplo
-texto_entrada = "A inteligência artificial está revolucionando"
+from transformers import AutoTokenizer, GPTNeoModel
+import torch
 
-# Tokenizar entrada
-inputs = tokenizer(texto_entrada, return_tensors="pt")
+tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-1.3B")
+model = GPTNeoModel.from_pretrained("EleutherAI/gpt-neo-1.3B")
 
-# Gerar texto
-outputs = model.generate(inputs.input_ids, max_length=50, do_sample=True)
+inputs = tokenizer("Hello, my dog is cute", return_tensors="pt")
+outputs = model(**inputs)
 
-# Decodificar saída
-teste_saida = tokenizer.decode(outputs[0], skip_special_tokens=True)
-print(teste_saida)
+last_hidden_states = outputs.last_hidden_state
 ```
 
-### 4. **Ajuste Fino (Fine-Tuning)**
+### 4. **Geração de Texto**
+```python
+from transformers import GPTNeoForCausalLM, GPT2Tokenizer
+
+model = GPTNeoForCausalLM.from_pretrained("EleutherAI/gpt-neo-1.3B")
+tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-1.3B")
+
+prompt = (
+    "In a shocking finding, scientists discovered a herd of unicorns living in a remote, "
+    "previously unexplored valley, in the Andes Mountains. Even more surprising to the "
+    "researchers was the fact that the unicorns spoke perfect English."
+)
+
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+
+gen_tokens = model.generate(
+    input_ids,
+    do_sample=True,
+    temperature=0.9,
+    max_length=100,
+)
+gen_text = tokenizer.batch_decode(gen_tokens)[0]
+```
+
+### 5. **Ajuste Fino (Fine-Tuning)**
 O GPT Neo pode ser ajustado para tarefas específicas utilizando datasets customizados. O ajuste fino é realizado com bibliotecas como `transformers` e `datasets`:
 ```python
 from transformers import Trainer, TrainingArguments
