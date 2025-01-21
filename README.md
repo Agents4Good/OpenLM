@@ -7,17 +7,22 @@
 
 O repositório é organizado para facilitar a navegação e o acesso às informações.
 
-| Modelo                     | Descrição                                        | Link para Análise                                                           |
-|----------------------------|--------------------------------------------------|-----------------------------------------------------------------------------|
-| GPT-Neo                    | Modelo open-source para tarefas gerais.          | [Análise do GPT-Neo](./modelos/GPTNeo.md)                                   |
-| GPT-NeoX                   | Evolução do GPT Neo, com maior escalabilidade.   | [Análise do GPT-NeoX]                                                       |
-| Pythia                     | Modelo para análise de comportamento.            | [Análise do Pythia]                                                         |
-| Falcon                     | Modelos treinados com 40 bilhões de parâmetros.  | [Análise do Falcon]                                                         |
-| BLOOM                      | LLM multilinguístico com foco ético.             | [Análise do BLOOM]                                                          |
-| OPT                        | Otimizado para eficiência e desempenho.          | [Análise do OPT]                                                            |
-| Mistral                    | Modelo leve com alta performance.                | [Análise do Mistral]                                                        |
-| LLaMA                      | Focado em pesquisa e acessibilidade.             | [Análise do LLaMA]                                                          |
-| BERT                       | Modelo Bidirecional da Google.                   | [Análise do BERT](./modelos/BERT.md)                                        |
+| Modelo                     | Descrição                                        | Link para Análise                                                        |
+|----------------------------|--------------------------------------------------|--------------------------------------------------------------------------|
+| Alpaca                     | Modelo de instruções fortes e replicável.        | [Análise Alpaca]                                                         |
+| BERT                       | Modelo Bidirecional da Google.                   | [Análise BERT](./modelos/BERT.md)                                        |
+| BLOOM                      | LLM multilinguístico com foco ético.             | [Análise BLOOM]                                                          |
+| Falcon                     | Modelo de alto nível, com até 180B de parâmetros.| [Análise Falcon]                                                         |
+| Gemma                      | Uma das LLMs open-source da Google.              | [Análise Gemma]                                                          |
+| Gemma 2                    | Evolução da LLM Gemma.                           | [Análise Gemma 2]                                                        |
+| GPT-Neo                    | Modelo open-source para tarefas gerais.          | [Análise GPT-Neo](./modelos/GPTNeo.md)                                   |
+| GPT-NeoX                   | Evolução do GPT Neo, com maior escalabilidade.   | [Análise GPT-NeoX]                                                       |
+| LLaMA                      | Focado em pesquisa e acessibilidade.             | [Análise LLaMA]                                                          |
+| LLaMA 2                    | Evolução da LLM LLaMA                            | [Análise LLaMA 2]                                                        |
+| LLaMA 3                    | Terceira geração da família LLaMA.               | [Análise LLaMA 3]                                                        |               
+| Mistral                    | Modelo leve com alta performance.                | [Análise Mistral]                                                        |
+| OPT                        | Otimizado para eficiência e desempenho.          | [Análise OPT]                                                            |
+| Pythia                     | Modelo para análise de comportamento.            | [Análise Pythia]                                                         |
 
 ---
 ## 🤝 Contribuição
