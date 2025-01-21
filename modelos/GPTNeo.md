@@ -27,8 +27,7 @@ O GPT Neo é avaliado principalmente em tarefas de geração de texto e NLP.
 ---
 ## 📚 Pesquisas Relevantes
 
-- **Alternativa de Código Aberto:** O GPT Neo foi projetado como uma alternativa de código aberto aos modelos GPT, tornando acessível a pesquisa e o uso de grandes modelos de linguagem.
-- **Desenvolvimento Contínuo:** Influenciou o surgimento de modelos subsequentes como GPT-J e GPT-NeoX, ampliando as capacidades e escalabilidade dos modelos abertos.
+- Confira diversos artigos feitos pela **EleutherAI**: https://www.eleuther.ai/research
 
 ---
 ## ✅ Prós
