@@ -6,11 +6,11 @@
 ## 🔍 Características Principais
 
 - **Criador:** Google AI Research
-- **Arquitetura:** Baseada em Transformers, com camadas empilhadas de codificadores (encoders) que processam as entradas bidirecionalmente.
-- **Treinamento:** Pré-treinado em grandes corpora de texto, como Wikipedia e BookCorpus.
+- **Arquitetura:** Baseada em Transformers, com camadas de codificadores (encoders) que processam as entradas bidirecionalmente.
+- **Treinamento:** Pré-treinado em grandes corporações de texto, como Wikipedia e BookCorpus.
 - **Objetivos de Treinamento:**
   - *Masked Language Model (MLM):* Predição de palavras mascaradas no texto.
-  - *Next Sentence Prediction (NSP):* Predição se uma frase segue outra em um par.
+  - *Next Sentence Prediction (NSP):* Predição de frases.
 
 ---
 ## 🧪 Desempenho em Benchmarks
