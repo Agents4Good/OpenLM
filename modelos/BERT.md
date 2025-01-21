@@ -68,7 +68,7 @@ print(output.last_hidden_state)
 ```
 
 ### 5. **Classificação de Inputs**
-> O BERT é frequentemente usado como base para modelos ajustados em tarefas de classificação, como análise de sentimentos.
+> O BERT é frequentemente usado como modelo em tarefas de classificação, como análise de sentimentos.
 
 ```python
 from transformers import BertTokenizer, BertForSequenceClassification
