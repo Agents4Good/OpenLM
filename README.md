@@ -5,7 +5,7 @@
 ---
 ## 🏛️ Estrutura do Repositório
 
-O repositório é organizado para facilitar a navegação e o acesso às informações sobre modelos de LLM:
+O repositório é organizado para facilitar a navegação e o acesso às informações.
 
 | Modelo                     | Descrição                                       | Link para Análise                                                           |
 |----------------------------|-------------------------------------------------|-----------------------------------------------------------------------------|
