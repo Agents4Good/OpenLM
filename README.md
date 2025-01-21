@@ -7,14 +7,14 @@
 
 O repositório é organizado para facilitar a navegação e o acesso às informações sobre modelos de LLM:
 
-| Modelo                     | Descrição                                  | Link para Análise                        |
-|----------------------------|--------------------------------------------|------------------------------------------|
-| GPT-Neo                   | Modelo open-source para tarefas gerais.     | [Análise do GPT-Neo](#)                  |
-| BLOOM                     | LLM multilinguístico com foco ético.        | [Análise do BLOOM](#)                    |
-| OPT                       | Otimizado para eficiência e desempenho.     | [Análise do OPT](#)                      |
-| Mistral                   | Modelo leve com alta performance.           | [Análise do Mistral](#)                  |
-| LLaMA                     | Focado em pesquisa e acessibilidade.        | [Análise do LLaMA](#)                    |
-| BERT                      | Modelo da Google que utiliza a arq. Transformer | [Análise do BERT](#)                 |
+| Modelo                     | Descrição                                       | Link para Análise                                        |
+|----------------------------|-------------------------------------------------|----------------------------------------------------------|
+| GPT-Neo                    | Modelo open-source para tarefas gerais.         | [Análise do GPT-Neo](#)                                  |
+| BLOOM                      | LLM multilinguístico com foco ético.            | [Análise do BLOOM](#)                                    |
+| OPT                        | Otimizado para eficiência e desempenho.         | [Análise do OPT](#)                                      |
+| Mistral                    | Modelo leve com alta performance.               | [Análise do Mistral](#)                                  |
+| LLaMA                      | Focado em pesquisa e acessibilidade.            | [Análise do LLaMA](#)                                    |
+| BERT                       | Modelo da Google que utiliza a arq. Transformer | [Análise do BERT](./modelos/BERT.md)                     |
 
 ---
 ## 🤝 Contribuição
