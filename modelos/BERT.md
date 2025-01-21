@@ -67,6 +67,64 @@ output = model(**tokens)
 print(output.last_hidden_state)
 ```
 
+### 5. **Classificação de Inputs**
+> O BERT é frequentemente usado como base para modelos ajustados em tarefas de classificação, como análise de sentimentos.
+
+```python
+from transformers import BertTokenizer, BertForSequenceClassification
+
+# Carregar tokenizer e modelo pré-treinado para classificação
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=2)
+
+# Texto de entrada
+texto = "Este produto é excelente!"
+
+# Tokenizar entrada
+inputs = tokenizer(texto, return_tensors="pt")
+
+# Realizar previsão
+outputs = model(**inputs)
+
+# Logits (saídas brutas)
+logits = outputs.logits
+print(logits)
+
+# Predição final (0 ou 1, dependendo do mapeamento de rótulos)
+predicao = torch.argmax(logits, dim=1)
+print(f"Sentimento: {'Positivo' if predicao == 1 else 'Negativo'}")
+```
+
+### 6. Perguntas e Respostas
+
+```python
+from transformers import BertTokenizer, BertForQuestionAnswering
+
+# Carregar tokenizer e modelo para perguntas e respostas
+tokenizer = BertTokenizer.from_pretrained("bert-large-uncased-whole-word-masking-finetuned-squad")
+model = BertForQuestionAnswering.from_pretrained("bert-large-uncased-whole-word-masking-finetuned-squad")
+
+# Contexto e pergunta
+contexto = "A inteligência artificial tem muitos usos no mundo moderno, incluindo NLP."
+pergunta = "Quais são os usos da inteligência artificial?"
+
+# Preparar entrada
+inputs = tokenizer.encode_plus(pergunta, contexto, return_tensors="pt")
+
+# Obter respostas do modelo
+outputs = model(**inputs)
+start_scores = outputs.start_logits
+end_scores = outputs.end_logits
+
+# Identificar tokens da resposta
+start_index = torch.argmax(start_scores)
+end_index = torch.argmax(end_scores)
+
+# Decodificar resposta
+resposta = tokenizer.decode(inputs.input_ids[0][start_index:end_index + 1])
+print(f"Resposta: {resposta}")
+```
+
 ---
 
 ## 📜 Artigos
