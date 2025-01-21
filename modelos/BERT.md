@@ -37,6 +37,13 @@ O BERT foi avaliado em diversos benchmarks e mostrou resultados de ponta em vár
 | **BERT base** | 12      | 12                 | 768               | 3072                   | 110 milhões  |
 | **BERT large**| 24      | 16                 | 1024              | 4096                   | 340 milhões  |
 
+---
+## 💻 Requisitos Recomendados
+
+| Versão       | Memória RAM (mínima) | VRAM (mínima) | Processador                      | Observações                            |
+|--------------|----------------------|---------------|-----------------------------------|----------------------------------------|
+| **BERT base**  | 16 GB               | 6 GB          | CPU com 4 núcleos (ex. i7 ou Ryzen 5) | Ideal para tarefas moderadas de NLP    |
+| **BERT large** | 32 GB               | 10 GB         | CPU com 8 núcleos (ex. i9 ou Ryzen 7) | Necessita de maior poder computacional |
 
 ---
 ## ✅ Prós
@@ -62,88 +69,98 @@ pip install transformers
 
 ### 2. **Carregar o Modelo e o Tokenizer**
 ```python
-from transformers import BertTokenizer, BertModel
+from transformers import AutoTokenizer, BertModel
+import torch
 
-# Carregar tokenizer e modelo pré-treinado
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-model = BertModel.from_pretrained("bert-base-uncased")
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased")
+model = BertModel.from_pretrained("google-bert/bert-base-uncased")
+
+inputs = tokenizer("Hello, my dog is cute", return_tensors="pt")
+outputs = model(**inputs)
+
+last_hidden_states = outputs.last_hidden_state
 ```
 
 ### 3. **Tokenização**
 ```python
-# Entrada de exemplo
-texto = "O BERT é incrível para NLP!"
+from transformers import BertConfig, BertModel
 
-# Tokenizar entrada
-tokens = tokenizer(texto, return_tensors="pt")
-print(tokens)
+# Initializing a BERT google-bert/bert-base-uncased style configuration
+configuration = BertConfig()
+
+# Initializing a model (with random weights) from the google-bert/bert-base-uncased style configuration
+model = BertModel(configuration)
+
+# Accessing the model configuration
+configuration = model.config
 ```
 
-### 4. **Inferência**
+### 4. **Multiplas Escolhas**
 ```python
-# Passar tokens pelo modelo
-output = model(**tokens)
+from transformers import AutoTokenizer, TFBertForMultipleChoice
+import tensorflow as tf
 
-# Representação dos tokens
-print(output.last_hidden_state)
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased")
+model = TFBertForMultipleChoice.from_pretrained("google-bert/bert-base-uncased")
+
+prompt = "In Italy, pizza served in formal settings, such as at a restaurant, is presented unsliced."
+choice0 = "It is eaten with a fork and a knife."
+choice1 = "It is eaten while held in the hand."
+
+encoding = tokenizer([prompt, prompt], [choice0, choice1], return_tensors="tf", padding=True)
+inputs = {k: tf.expand_dims(v, 0) for k, v in encoding.items()}
+outputs = model(inputs)  # batch size is 1
+
+# the linear classifier still needs to be trained
+logits = outputs.logits
 ```
 
 ### 5. **Classificação de Inputs**
 > O BERT é frequentemente usado como modelo em tarefas de classificação, como análise de sentimentos.
 
 ```python
-from transformers import BertTokenizer, BertForSequenceClassification
+import torch
+from transformers import AutoTokenizer, BertForSequenceClassification
 
-# Carregar tokenizer e modelo pré-treinado para classificação
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=2)
+tokenizer = AutoTokenizer.from_pretrained("textattack/bert-base-uncased-yelp-polarity")
+model = BertForSequenceClassification.from_pretrained("textattack/bert-base-uncased-yelp-polarity")
 
-# Texto de entrada
-texto = "Este produto é excelente!"
+inputs = tokenizer("Hello, my dog is cute", return_tensors="pt")
 
-# Tokenizar entrada
-inputs = tokenizer(texto, return_tensors="pt")
+with torch.no_grad():
+    logits = model(**inputs).logits
 
-# Realizar previsão
-outputs = model(**inputs)
+predicted_class_id = logits.argmax().item()
+model.config.id2label[predicted_class_id]
 
-# Logits (saídas brutas)
-logits = outputs.logits
-print(logits)
+# To train a model on `num_labels` classes, you can pass `num_labels=num_labels` to `.from_pretrained(...)`
+num_labels = len(model.config.id2label)
+model = BertForSequenceClassification.from_pretrained("textattack/bert-base-uncased-yelp-polarity", num_labels=num_labels)
 
-# Predição final (0 ou 1, dependendo do mapeamento de rótulos)
-predicao = torch.argmax(logits, dim=1)
-print(f"Sentimento: {'Positivo' if predicao == 1 else 'Negativo'}")
+labels = torch.tensor([1])
+loss = model(**inputs, labels=labels).loss
+round(loss.item(), 2)
 ```
 
 ### 6. Perguntas e Respostas
 
 ```python
-from transformers import BertTokenizer, BertForQuestionAnswering
+from transformers import AutoTokenizer, TFBertForQuestionAnswering
+import tensorflow as tf
 
-# Carregar tokenizer e modelo para perguntas e respostas
-tokenizer = BertTokenizer.from_pretrained("bert-large-uncased-whole-word-masking-finetuned-squad")
-model = BertForQuestionAnswering.from_pretrained("bert-large-uncased-whole-word-masking-finetuned-squad")
+tokenizer = AutoTokenizer.from_pretrained("ydshieh/bert-base-cased-squad2")
+model = TFBertForQuestionAnswering.from_pretrained("ydshieh/bert-base-cased-squad2")
 
-# Contexto e pergunta
-contexto = "A inteligência artificial tem muitos usos no mundo moderno, incluindo NLP."
-pergunta = "Quais são os usos da inteligência artificial?"
+question, text = "Who was Jim Henson?", "Jim Henson was a nice puppet"
 
-# Preparar entrada
-inputs = tokenizer.encode_plus(pergunta, contexto, return_tensors="pt")
-
-# Obter respostas do modelo
+inputs = tokenizer(question, text, return_tensors="tf")
 outputs = model(**inputs)
-start_scores = outputs.start_logits
-end_scores = outputs.end_logits
 
-# Identificar tokens da resposta
-start_index = torch.argmax(start_scores)
-end_index = torch.argmax(end_scores)
+answer_start_index = int(tf.math.argmax(outputs.start_logits, axis=-1)[0])
+answer_end_index = int(tf.math.argmax(outputs.end_logits, axis=-1)[0])
 
-# Decodificar resposta
-resposta = tokenizer.decode(inputs.input_ids[0][start_index:end_index + 1])
-print(f"Resposta: {resposta}")
+predict_answer_tokens = inputs.input_ids[0, answer_start_index : answer_end_index + 1]
+tokenizer.decode(predict_answer_tokens)
 ```
 
 ---
