@@ -14,7 +14,7 @@ O repositório é organizado para facilitar a navegação e o acesso às informa
 | OPT                        | Otimizado para eficiência e desempenho.         | [Análise do OPT](./modelos/OPT.md)                                          |
 | Mistral                    | Modelo leve com alta performance.               | [Análise do Mistral](./modelos/Mistral.md)                                  |
 | LLaMA                      | Focado em pesquisa e acessibilidade.            | [Análise do LLaMA](./modelos/LLaMA.md)                                      |
-| BERT                       | Modelo da Google que utiliza a arq. Transformer | [Análise do BERT](./modelos/BERT.md)                                        |
+| BERT                       | Modelo Bidirecional da Google                   | [Análise do BERT](./modelos/BERT.md)                                        |
 
 ---
 ## 🤝 Contribuição
