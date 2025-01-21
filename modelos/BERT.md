@@ -30,6 +30,15 @@ O BERT foi avaliado em diversos benchmarks e mostrou resultados de ponta em vár
 - **Impacto em Modelos Posteriores:** O BERT influenciou a criação de modelos avançados como RoBERTa, DistilBERT e ALBERT.
 
 ---
+## 📥 Versões
+
+| Versão     | Camadas | Cabeças de Atenção | Dimensões Ocultas | Dimensões Feed-Forward | Parâmetros    |
+|------------|---------|--------------------|-------------------|------------------------|---------------|
+| **BERT base** | 12      | 12                 | 768               | 3072                   | 110 milhões  |
+| **BERT large**| 24      | 16                 | 1024              | 4096                   | 340 milhões  |
+
+
+---
 ## ✅ Prós
 1. Compreensão do Contexto: Altamente eficaz em entender o contexto completo de uma frase;
 2. Processamento Bidirecional: O BERT processa o texto de maneira bidirecional (ambos os lados do texto), proporcionando maior precisão nas respostas;
