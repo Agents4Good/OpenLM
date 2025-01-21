@@ -24,11 +24,23 @@ O BERT foi avaliado em diversos benchmarks e mostrou resultados de ponta em vár
 | CoLA                  | Aceitabilidade linguística    | Matthews Corr.    | 60.5          | [Resultados em CoLA](https://nyu-mll.github.io/CoLA/)                    |
 
 ---
-
 ## 📚 Pesquisas Relevantes
 
 - **Fine-Tuning de Tarefas Específicas:** Pesquisas demonstram que o BERT pode ser ajustado para várias tarefas, incluindo classificação de texto, tradução e análise de sentimentos.
 - **Impacto em Modelos Posteriores:** O BERT influenciou a criação de modelos avançados como RoBERTa, DistilBERT e ALBERT.
+
+---
+## ✅ Prós
+1. Compreensão do Contexto: Altamente eficaz em entender o contexto completo de uma frase;
+2. Processamento Bidirecional: O BERT processa o texto de maneira bidirecional (ambos os lados do texto), proporcionando maior precisão nas respostas;
+3. Ideal para classificação de texto: O BERT foi projetado para compreensão e classificação de texto.
+
+---
+## ❌ Contras
+1. Pesado: O BERT, especialmente nas versões maiores como a Large, é pesado e requer grande poder computacional;
+2. Tempo de Inferência alto: Devido à sua arquitetura bidirecional, o tempo de processamento é demorado;
+3. Limite de Caracteres em uma frase: O BERT tem um limite de tamanho de sequência (geralmente 512 tokens);
+4. Não é ideal para geração de texto: O BERT foi projetado para compreensão e classificação de texto, não para geração.
 
 ---
 ## 🚀 Como Usar o BERT
