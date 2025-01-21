@@ -38,6 +38,14 @@ O GPT Neo é avaliado principalmente em tarefas de geração de texto e NLP.
 | GPT Neo 1.3B       | 24          | 16                     | 2048                   | 8192                       | 1,3 bilhões    |
 | GPT Neo 2.7B       | 32          | 20                     | 2560                   | 10240                      | 2,7 bilhões    |
 
+---
+## 💻​ Requisitos Recomendados
+
+| **Versão**         | **Memória RAM** | **Memória da GPU** | **Armazenamento** |
+|---------------------|-----------------|--------------------|-------------------|
+| GPT Neo 125M       | 8 GB            | 4 GB               | 500 MB            |
+| GPT Neo 1.3B       | 16 GB           | 12 GB              | 2 GB              |
+| GPT Neo 2.7B       | 32 GB           | 24 GB              | 5 GB              |
 
 ---
 ## ✅ Prós
@@ -50,15 +58,6 @@ O GPT Neo é avaliado principalmente em tarefas de geração de texto e NLP.
 1. Requer **hardware robusto**: Modelos maiores exigem GPUs ou TPUs para treinamento e inferência;
 2. **Menor desempenho** em comparação com GPT proprietários: Resultados ligeiramente inferiores aos modelos mais avançados da OpenAI;
 3. **Limitação de contexto**: Restrições no comprimento de entrada devido ao design da arquitetura.
-
----
-## 💻​ Requisitos Recomendados
-
-| **Versão**         | **Memória RAM** | **Memória da GPU** | **Armazenamento** |
-|---------------------|-----------------|--------------------|-------------------|
-| GPT Neo 125M       | 8 GB            | 4 GB               | 500 MB            |
-| GPT Neo 1.3B       | 16 GB           | 12 GB              | 2 GB              |
-| GPT Neo 2.7B       | 32 GB           | 24 GB              | 5 GB              |
 
 ---
 ## 🚀 Como Usar o GPT Neo
