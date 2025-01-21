@@ -1,2 +1,34 @@
-# Receitas-LLMs
-Repositório dedicado a analisar e documentar LLMs open-source seguros, confiáveis e éticos, com receitas práticas para seu uso responsável.
+<h1 align="center">LLMs - Receitas de Uso</h1>
+
+> Repositório dedicado à análise e documentação de LLMs open-source, com receitas práticas para seu uso responsável.
+
+---
+## 🏛️ Estrutura do Repositório
+
+O repositório é organizado para facilitar a navegação e o acesso às informações sobre modelos de LLM:
+
+| Modelo                     | Descrição                                  | Link para Análise                        |
+|----------------------------|--------------------------------------------|------------------------------------------|
+| GPT-Neo                   | Modelo open-source para tarefas gerais.     | [Análise do GPT-Neo](#)                  |
+| BLOOM                     | LLM multilinguístico com foco ético.        | [Análise do BLOOM](#)                    |
+| OPT                       | Otimizado para eficiência e desempenho.     | [Análise do OPT](#)                      |
+| Mistral                   | Modelo leve com alta performance.           | [Análise do Mistral](#)                  |
+| LLaMA                     | Focado em pesquisa e acessibilidade.        | [Análise do LLaMA](#)                    |
+| BERT                      | Modelo da Google que utiliza a arq. Transformer | [Análise do BERT](#)                 |
+
+---
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Siga os passos abaixo para colaborar:  
+
+1. Faça um fork do repositório.  
+2. Crie uma branch para sua contribuição:  
+   ```bash
+   git checkout -b minha-contribuicao
+   ```
+3. Envie um pull request com sua proposta de alteração.
+
+---
+## 📜 Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
