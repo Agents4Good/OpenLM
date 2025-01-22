@@ -23,6 +23,7 @@ O repositório é organizado para facilitar a navegação e o acesso às informa
 | Mistral                    | Modelo leve com alta performance.                | [Análise Mistral]                                                        |
 | OPT                        | Otimizado para eficiência e desempenho.          | [Análise OPT]                                                            |
 | Pythia                     | Modelo para análise de comportamento.            | [Análise Pythia]                                                         |
+| Vicuna                     | LLM muito utilizada em aplicações de saúde.      | [Análise Vicuna]                                                         |
 
 ---
 ## 🤝 Contribuição
