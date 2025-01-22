@@ -17,15 +17,15 @@
 
 O BERT foi avaliado em diversos benchmarks e mostrou resultados de ponta em várias tarefas de Processamento de Linguagem Natural (NLP).
 
-| **Benchmark**         | **Tarefa**                    | **Métrica**       | **Resultado** | **Fonte**                                                                |
-|------------------------|-------------------------------|-------------------|---------------|-------------------------------------------------------------------------|
-| SQuAD 1.1             | Respostas a perguntas         | Exatidão          | 93.2%         | [Artigo Original](https://arxiv.org/abs/1810.04805)                      |
-| GLUE                  | Classificação de sentenças    | Pontuação média   | 80.5          | [GLUE Leaderboard](https://gluebenchmark.com/leaderboard)                |
-| CoLA                  | Aceitabilidade linguística    | Matthews Corr.    | 60.5          | [Resultados em CoLA](https://nyu-mll.github.io/CoLA/)                    |
-| MNLI                  | Inferência textual            | Exatidão          | 84.6%         | [MNLI Benchmark](https://cims.nyu.edu/~sbowman/multinli/)                |
-| SST-2                 | Análise de sentimentos        | Exatidão          | 94.9%         | [SST-2 Dataset](https://nlp.stanford.edu/sentiment/treebank.html)        |
-| RACE                  | Compreensão de leitura        | Taxa de acerto    | 65.0%         | [RACE Dataset](http://www.cs.cmu.edu/~glai1/data/race/)                  |
-| QNLI                  | Questões naturais             | Exatidão          | 91.2%         | [QNLI Benchmark](https://gluebenchmark.com/tasks)                        |
+| **Benchmark**         | **Modelo Avaliado**  | **Tarefa**                    | **Métrica**       | **Resultado** | **Fonte**                                         |
+|-----------------------|---------------------|--------------------------------|-------------------|---------------|---------------------------------------------------|
+| SQuAD 1.1             | BERT large          | Respostas a perguntas         | Exatidão          | 93.2%         | [Artigo Original](https://arxiv.org/abs/1810.04805)|
+| GLUE                  | BERT base           | Classificação de sentenças    | Pontuação média   | 80.5          | [GLUE Leaderboard](https://gluebenchmark.com/leaderboard)|
+| CoLA                  | BERT base           | Aceitabilidade linguística    | Matthews Corr.    | 60.5          | [Resultados em CoLA](https://nyu-mll.github.io/CoLA/)|
+| MNLI                  | BERT large          | Inferência textual            | Exatidão          | 84.6%         | [MNLI Benchmark](https://cims.nyu.edu/~sbowman/multinli/)|
+| SST-2                 | BERT base           | Análise de sentimentos        | Exatidão          | 94.9%         | [SST-2 Dataset](https://nlp.stanford.edu/sentiment/treebank.html)|
+| RACE                  | BERT large          | Compreensão de leitura        | Taxa de acerto    | 65.0%         | [RACE Dataset](http://www.cs.cmu.edu/~glai1/data/race/)|
+| QNLI                  | BERT base           | Questões naturais             | Exatidão          | 91.2%         | [QNLI Benchmark](https://gluebenchmark.com/tasks)   |
 
 ---
 ## 📚 Pesquisas Relevantes
