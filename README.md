@@ -11,7 +11,7 @@ O repositório é organizado para facilitar a navegação e o acesso às informa
 |----------------------------|--------------------------------------------------|--------------------------------------------------------------------------|
 | Alpaca                     | Modelo de instruções fortes e replicável.        | [Análise Alpaca](./modelos/Alpaca.md)                                    |
 | BERT                       | Modelo Bidirecional da Google.                   | [Análise BERT](./modelos/BERT.md)                                        |
-| BLOOM                      | LLM multilinguístico com foco ético.             | [Análise BLOOM]                                                          |
+| BLOOM                      | LLM multilinguístico com foco ético.             | [Análise BLOOM](./modelos/BLOOM.md)                                      |
 | Falcon                     | Modelo de alto nível, com até 180B de parâmetros.| [Análise Falcon]                                                         |
 | Gemma                      | Uma das LLMs open-source da Google.              | [Análise Gemma]                                                          |
 | Gemma 2                    | Evolução da LLM Gemma.                           | [Análise Gemma 2]                                                        |
