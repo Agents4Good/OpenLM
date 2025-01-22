@@ -18,11 +18,16 @@
 ## 🧪 Desempenho em Benchmarks
 
 O GPT Neo é avaliado principalmente em tarefas de geração de texto e NLP.
+> Fonte: [Artigo - Medium](https://medium.com/georgian-impact-blog/gpt-neo-vs-gpt-3-are-commercialized-nlp-models-really-that-much-better-f4c73ffce10b)
 
-| **Benchmark**         | **Tarefa**                    | **Métrica**       | **Resultado** | **Fonte**                                        |
-|------------------------|-------------------------------|-------------------|---------------|------------------------------------------------|
-| EleutherAI Evaluation | Geração de texto criativo     | Coerência         | Alta          | [Documentação GPT Neo](https://huggingface.co/docs/transformers/en/model_doc/gpt_neo) |
-| The Pile Perplexity   | Qualidade do texto gerado     | Perplexidade      | Baixa         | [The Pile Dataset](https://arxiv.org/abs/2101.00027)            |
+| **Modelo**          | **0-shot (%)** | **1-shot (%)** | **4-shot (%)** | **8-shot (%)** | **Custo 0-shot** | **Custo 8-shot** | **Acurácia Geral (%)** |
+|----------------------|----------------|----------------|----------------|----------------|------------------|------------------|-------------------------|
+| GPT-Neo 1.3B         | 56.9          | 84.4           | 83.5           | 78.1           | $0               | $0               | 84.4                   |
+| GPT-Neo 2.7B         | 6.97          | 73.1           | 84.4           | 68.0           | $0               | $0               | 84.4                   |
+| GPT-3 ada (2.7B)     | 47.6          | 60.8           | 72.6           | 62.5           | $0.04/run        | $0.44/run        | 88.4                   |
+| GPT-3 curie (13B)    | 45.1          | 83.4           | 89.3           | 86.1           | $0.33/run        | $3.35/run        | 95.1                   |
+| GPT-3 davinci (175B) | 36.7          | 85.8           | 94.3           | 95.1           | $3.26/run        | $33.43/run       | 95.1                   |
+| SMART-RoBERTa Large  | -             | -              | -              | -              | -                | -                | 97.5                   |
 
 ---
 ## 📚 Pesquisas Relevantes
