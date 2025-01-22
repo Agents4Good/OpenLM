@@ -9,7 +9,7 @@ O repositório é organizado para facilitar a navegação e o acesso às informa
 
 | Modelo                     | Descrição                                        | Link para Análise                                                        |
 |----------------------------|--------------------------------------------------|--------------------------------------------------------------------------|
-| Alpaca                     | Modelo de instruções fortes e replicável.        | [Análise Alpaca]                                                         |
+| Alpaca                     | Modelo de instruções fortes e replicável.        | [Análise Alpaca](./modelos/Alpaca.md)                                    |
 | BERT                       | Modelo Bidirecional da Google.                   | [Análise BERT](./modelos/BERT.md)                                        |
 | BLOOM                      | LLM multilinguístico com foco ético.             | [Análise BLOOM]                                                          |
 | Falcon                     | Modelo de alto nível, com até 180B de parâmetros.| [Análise Falcon]                                                         |
