@@ -44,10 +44,10 @@ O BERT foi avaliado em diversos benchmarks e mostrou resultados de ponta em vár
 ---
 ## 💻 Requisitos Recomendados
 
-| Versão       | Memória RAM          | VRAM          | Processador                      | Observações                            |
-|--------------|----------------------|---------------|-----------------------------------|----------------------------------------|
-| **BERT base**  | 16 GB               | 6 GB          | CPU com 4 núcleos (ex. i7 ou Ryzen 5) | Ideal para tarefas moderadas de NLP    |
-| **BERT large** | 32 GB               | 10 GB         | CPU com 8 núcleos (ex. i9 ou Ryzen 7) | Necessita de maior poder computacional |
+| Versão         | Memória RAM          | Processador                           |  Observações                            |
+|----------------|----------------------|---------------------------------------|-----------------------------------------|
+| **BERT base**  | 16 GB                | CPU com 4 núcleos (ex. i7 ou Ryzen 5) | Ideal para tarefas moderadas de NLP     |
+| **BERT large** | 32 GB                | CPU com 8 núcleos (ex. i9 ou Ryzen 7) | Necessita de maior poder computacional  |
 
 ---
 ## ✅ Prós
