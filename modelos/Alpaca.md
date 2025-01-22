@@ -15,7 +15,15 @@
   - Aplicável em tarefas como resumo, tradução e perguntas e respostas
 
 ---
+## 🤓 Treinamento
 
+A figura abaixo ilustra como foi obtido o modelo Alpaca. Para os dados, foram geradas demonstrações de seguimento de instruções com base no método *self-instruct*. Começando com 175 pares de instruções e respostas escritas manualmente do conjunto inicial do *self-instruct*. Em seguida, foi utilizado o modelo *text-davinci-003* para gerar mais instruções, usando o conjunto inicial como exemplos no contexto.
+
+O método *self-instruct* foi melhorado, simplificando o pipeline de geração e reduziram significativamente os custos. O processo de geração de dados resultou em 52 mil instruções únicas e suas respostas correspondentes, com um custo total inferior a 500 dólares usando a API da OpenAI.
+
+![image](https://github.com/user-attachments/assets/6e0989df-1e5f-4042-a4d6-87a67e2b7f0c)
+
+---
 ## 🧪 Desempenho em Benchmarks
 
 O desempenho do Alpaca foi avaliado utilizando o AlpacaEval, uma ferramenta de avaliação automática baseada em LLMs. Abaixo está uma comparação de desempenho entre diferentes modelos:
