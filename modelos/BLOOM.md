@@ -20,6 +20,18 @@
 ![image](https://github.com/user-attachments/assets/8200135a-8e3c-44c5-ab44-e76a10c178f7)
 
 ---
+## 🏛️ Arquitetura
+
+![image](https://github.com/user-attachments/assets/1f85c0ac-ab1f-49dc-ad8a-1619ad5679cd)
+
+A arquitetura do modelo BLOOM, conforme detalhado no artigo, inclui diversos aspectos:
+- A equipe se concentrou em famílias de modelos escaláveis, com suporte em ferramentas e bases de código disponíveis publicamente.
+- Experimentos de ablação foram conduzidos em modelos menores para otimizar componentes e hiperparâmetros.
+- A generalização zero-shot foi uma métrica chave para avaliar as decisões arquiteturais.
+- O BLOOM é baseado na arquitetura Transformer, especificamente em um modelo causal *decoder-only*.
+- Essa abordagem foi validada como a mais eficaz para capacidades de generalização zero-shot em comparação com arquiteturas *encoder-decoder* e outros modelos *decoder-only*.
+
+---
 ## 🧪 Desempenho em Benchmarks
 
 BLOOM foi avaliado em benchmarks diversos, destacando-se em tarefas de NLP multilinguístico e de programação. Embora não alcance a performance de modelos proprietários como GPT-3 em alguns casos, ele é competitivo em cenários de geração e compreensão de texto.
