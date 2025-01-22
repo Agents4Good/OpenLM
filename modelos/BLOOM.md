@@ -15,20 +15,25 @@
   - Apoio a diversas tarefas de NLP, como tradução, resumo e classificação.
 
 ---
+## 🤓 Distribuição das Linguagens Treinadas
+
+![image](https://github.com/user-attachments/assets/8200135a-8e3c-44c5-ab44-e76a10c178f7)
+
+---
 ## 🧪 Desempenho em Benchmarks
 
 BLOOM foi avaliado em benchmarks diversos, destacando-se em tarefas de NLP multilinguístico e de programação. Embora não alcance a performance de modelos proprietários como GPT-3 em alguns casos, ele é competitivo em cenários de geração e compreensão de texto.
 
 | **Benchmark**         | **Versão Avaliada** | **Tarefa**                    | **Métrica**         | **Resultado** |
 |------------------------|---------------------|--------------------------------|---------------------|---------------|
-| WMT'14 EN-FR          | BLOOM-176B         | Tradução de Inglês para Francês | BLEU Score          | 40.98         |
-| XNLI                  | BLOOM-176B         | Inferência Multilíngue         | Exatidão Média (%)  | 76.8          |
-| SuperGLUE             | BLOOM-7.1B         | Classificação e Inferência     | Pontuação Média (%) | 65.2          |
-| TYDI QA               | BLOOM-176B         | Perguntas e Respostas Multilíngues | Exatidão (%)    | 58.0          |
-| LAMBADA               | BLOOM-176B         | Completar Palavras             | Exatidão (%)        | 77.5          |
-| MASSIVE               | BLOOM-7.1B         | Compreensão Multilíngue        | Exatidão Média (%)  | 48.1          |
-| WikiText103           | BLOOM-176B         | Modelagem de Linguagem         | Perplexidade        | 18.2          |
-| MLQA                  | BLOOM-176B         | Perguntas Multilíngues         | Exatidão (%)        | 74.1          |
+| WMT'14 EN-FR          | BLOOM-176B         | Tradução de Inglês para Francês | BLEU Score          | 40.98%         |
+| XNLI                  | BLOOM-176B         | Inferência Multilíngue         | Exatidão Média (%)  | 76.8%          |
+| SuperGLUE             | BLOOM-7.1B         | Classificação e Inferência     | Pontuação Média (%) | 65.2%          |
+| TYDI QA               | BLOOM-176B         | Perguntas e Respostas Multilíngues | Exatidão (%)    | 58.0%          |
+| LAMBADA               | BLOOM-176B         | Completar Palavras             | Exatidão (%)        | 77.5%          |
+| MASSIVE               | BLOOM-7.1B         | Compreensão Multilíngue        | Exatidão Média (%)  | 48.1%          |
+| WikiText103           | BLOOM-176B         | Modelagem de Linguagem         | Perplexidade        | 18.2%          |
+| MLQA                  | BLOOM-176B         | Perguntas Multilíngues         | Exatidão (%)        | 74.1%          |
 
 > Fontes: [Hugging Face](https://huggingface.co/bigscience/bloom), [Arxiv](https://arxiv.org/abs/2211.05100)
 
@@ -75,28 +80,31 @@ BLOOM foi avaliado em benchmarks diversos, destacando-se em tarefas de NLP multi
 ### 1. **Instalação**
 Certifique-se de ter o Python instalado e instale a biblioteca `transformers`:
 ```bash
-pip install transformers
+!pip install transformers -q
 ```
 
 ### 2. **Tokenização**
 ```python
-from transformers import AutoTokenizer, AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained(model_ID, use_cache=True) 
+tokenizer = AutoTokenizer.from_pretrained(model_ID)
+set_seed(2024)
 
-tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom")
-model = AutoModelForCausalLM.from_pretrained("bigscience/bloom")
+story_title = 'An Unexpected Journey Through Time' 
+prompt = f'This is a creative story about {story_title}.\n'
 
-inputs = tokenizer("Explain the importance of open science in AI.", return_tensors="pt")
-outputs = model.generate(**inputs)
+input_ids = tokenizer(prompt, return_tensors="pt").to(0)
 
-print(tokenizer.decode(outputs[0]))
-```
+sample = model.generate(**input_ids, 
+                        max_length=200, top_k=1, 
+                        temperature=0, repetition_penalty=2.0)
 
-### 3. **Inferência**
-```python
-inputs = tokenizer("¿Cuál es el impacto de BLOOM en el procesamiento multilingüe?", return_tensors="pt")
-outputs = model.generate(**inputs, max_length=50)
+generated_story = tokenizer.decode(sample[0], skip_special_tokens=True)
 
-print(tokenizer.decode(outputs[0]))
+import textwrap  
+wrapper = textwrap.TextWrapper(width=80)
+
+formated_story = wrapper.fill(text=generated_story)
+print(formated_story)
 ```
 
 ---
