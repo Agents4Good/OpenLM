@@ -5,7 +5,7 @@
 ---
 
 ## 🪶 Modelos Leves  
-Modelos leves, otimizados para rodar localmente em dispositivos com recursos computacionais limitados.
+> Modelos leves, otimizados para rodar localmente em dispositivos com recursos computacionais limitados.
 
 | 🤖 Nome do Modelo | 🧮 Parâmetros | 📋 Tarefas Comuns         | ✍️ Descrição                                  | 🔗 Link                                     |
 |-------------------|---------------|---------------------------|-----------------------------------------------|----------------------------------------------|
@@ -24,7 +24,7 @@ Modelos leves, otimizados para rodar localmente em dispositivos com recursos com
 
 ---
 ## 🏋️‍♂️ Modelos Robustos  
-Modelos grandes e avançados, projetados para resolver problemas complexos com grande capacidade de generalização.
+> Modelos grandes e avançados, projetados para resolver problemas complexos com grande capacidade de generalização.
 
 | 🤖 Nome do Modelo | 🧮 Parâmetros | 📋 Tarefas Comuns         | ✍️ Descrição                                  | 🔗 Link                                                             |
 |----------------|--------------|-------------------------------|------------------------------------------------------------|---------------------------------------------------------|
@@ -37,7 +37,7 @@ Modelos grandes e avançados, projetados para resolver problemas complexos com g
 
 ---
 ## 🇧🇷 Modelos Brasileiros  
-Modelos desenvolvidos especificamente para a língua portuguesa, focando em aplicações no Brasil.
+> Modelos desenvolvidos especificamente para a língua portuguesa, focando em aplicações no Brasil.
 
 | 🤖 Nome do Modelo | 🧮 Parâmetros | 📋 Tarefas Comuns | ✍️ Descrição                             | 🔗 Link |
 |-------------------|--------------|------------------|---------------------------------------------|--------|
