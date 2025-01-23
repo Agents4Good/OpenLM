@@ -10,8 +10,12 @@ Modelos leves, otimizados para rodar localmente em dispositivos com recursos com
 | 🤖 Nome do Modelo | 🧮 Parâmetros | 📋 Tarefas Comuns         | ✍️ Descrição                                  | 🔗 Link                                     |
 |-------------------|---------------|---------------------------|-----------------------------------------------|----------------------------------------------|
 | BERT           | 110M         | Classificação de Texto, Q&A   | Modelo bidirecional com base no Transformer.  | [Análise BERT](./modelos/BERT.md)            |
-| GPT-Neo 125M   | 125M         | Geração de texto              | Versão leve do GPT-Neo para tarefas simples.  | [Análise GPT-Neo](./modelos/GPTNeo.md)       |
-|                |              |                               |                                               |                                              |
+| Cerebras       | 111M         | Multitarefa                   | Máxima perfomance com pouco hardware.         |                                              |
+| GPT-Neo        | 125M         | Geração de Texto              | Versão leve do GPT-Neo para tarefas simples.  | [Análise GPT-Neo](./modelos/GPTNeo.md)       |
+| LaMini GPT     | 774M         | Multilíngue                   | Adequado para tarefas detalhadas.             |                                              |
+| MiniCPM        | 1B           | Perfomance balanceada         | Modelo com boa perfomancee leve.              |                                              |
+| Pythia         | 160M         | Geração de Código             | Modelo da EleutherAI, com bons desempenhos.   |                                              |
+| Granite 3      | 2B           | Multitarefa, Multilíngue      | Modelo Open-Source da IBM.                    |                                              | 
 
 ---
 ## 🏋️‍♂️ Modelos Robustos  
@@ -19,12 +23,13 @@ Modelos grandes e avançados, projetados para resolver problemas complexos com g
 
 | 🤖 Nome do Modelo | 🧮 Parâmetros | 📋 Tarefas Comuns         | ✍️ Descrição                                  | 🔗 Link                                                             |
 |----------------|--------------|-------------------------------|------------------------------------------------------------|---------------------------------------------------------|
-| Alpaca         | 7B           | Geração de texto, Instruções  | Modelo instruído com base no LLaMA, voltado para pesquisa. | [Análise Alpaca](./modelos/Alpaca.md)                   |
-| BLOOM          | 176B         | Geração de texto, Multilíngue | LLM multilinguístico focado em acessibilidade.             | [Análise BLOOM](./modelos/BLOOM.md)                     |
-| Falcon         | 180B         | Multitarefa, Multilíngue      | Modelo robusto com alta escalabilidade.                    | [Análise Falcon]                                        |
-| GPT-NeoX       | 20B          | Geração de texto, Tradução    | Versão mais poderosa do GPT-Neo para tarefas robustas.     | [Análise GPT-NeoX]                                      |
-| LLaMA 2        | 13B e 70B    | NLP Geral, Tradução           | Segunda geração do LLaMA com maior desempenho.             | [Análise LLaMA 2]                                       |
-| LLaMA 3        | 70B          | Multitarefa                   | Terceira geração da família LLaMA.                         | [Análise LLaMA 3](./modelos/Llama3.md)                  |
+| Alpaca         | -            | Geração de texto, Instruções  | Modelo instruído com base no LLaMA, voltado para pesquisa. | [Análise Alpaca](./modelos/Alpaca.md)                   |
+| BLOOM          | -            | Geração de texto, Multilíngue | LLM multilinguístico focado em acessibilidade.             | [Análise BLOOM](./modelos/BLOOM.md)                     |
+| Falcon         | -            | Multitarefa, Multilíngue      | Modelo robusto com alta escalabilidade.                    | [Análise Falcon]                                        |
+| GPT-NeoX       | -            | Geração de texto, Tradução    | Versão mais poderosa do GPT-Neo para tarefas robustas.     | [Análise GPT-NeoX]                                      |
+| LLaMA 2        | -            | NLP Geral, Tradução           | Segunda geração do LLaMA com maior desempenho.             | [Análise LLaMA 2]                                       |
+| LLaMA 3        | -            | Multitarefa                   | Terceira geração da família LLaMA.                         | [Análise LLaMA 3](./modelos/Llama3.md)                  |
+| Mistral Nemo   | -            | Multitarefa, Multilíngue      | Substituição direta do Mistral 7B.                         | [Análise Mistral Nemo](./modelos/MistralNemo.md)        |
 
 ---
 ## 🇧🇷 Modelos Brasileiros  
@@ -32,7 +37,7 @@ Modelos desenvolvidos especificamente para a língua portuguesa, focando em apli
 
 | 🤖 Nome do Modelo | 🧮 Parâmetros | 📋 Tarefas Comuns | ✍️ Descrição                             | 🔗 Link |
 |-------------------|--------------|------------------|---------------------------------------------|--------|
-|  Em breve         |  -           | -                | Modelos brasileiros serão adicionados aqui. | -      |
+|  Sabiá-2          |  -           | -                | -                                           | -      |
 |                   |              |                  |                                             |        |
 |                   |              |                  |                                             |        |
 
