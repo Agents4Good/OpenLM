@@ -22,7 +22,7 @@ O repositório é organizado para facilitar a navegação e o acesso às informa
 | LLaMA 3                    | Terceira geração da família LLaMA.               | [Análise LLaMA 3](./modelos/Llama3.md)                                                        |               
 | Mistral NeMo               | Modelo multilíngue com alta performance.         | [Análise Mistral NeMo](./modelos/MistralNemo.md)                                                        |
 | Pixtral                    | Modelo multimodal especializado em imagem e texto. | [Análise Pixtral](./modelos/Pixtral.md)                                                        |
-| Codestral Mamba|           | Modelo especializado em textos de código.        | [Análise Codestral Mamba](./modelos/CodestralMamba.md)                                                        |
+| Codestral Mamba            | Modelo especializado em textos de código.        | [Análise Codestral Mamba](./modelos/CodestralMamba.md)                                                        |
 | OPT                        | Otimizado para eficiência e desempenho.          | [Análise OPT]                                                            |
 | Pythia                     | Modelo para análise de comportamento.            | [Análise Pythia]                                                         |
 | Vicuna                     | LLM muito utilizada em aplicações de saúde.      | [Análise Vicuna]                                                         |
