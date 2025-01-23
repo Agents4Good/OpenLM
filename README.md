@@ -1,31 +1,40 @@
 <h1 align="center">Reviews de LMs Open-Source</h1>
 
-> Repositório dedicado à análise e documentação de LLMs open-source, com receitas práticas para seu uso responsável.
+> Repositório dedicado à análise e documentação de Modelos de Linguagem open-source, com receitas práticas para seu uso responsável.
 
 ---
-## 🏛️ Estrutura do Repositório
+## Modelos Leves
+Modelos leves, otimizados para rodar localmente em dispositivos com recursos computacionais limitados.
 
-O repositório é organizado para facilitar a navegação e o acesso às informações.
+| Nome do Modelo | Parâmetros | Tarefas Comuns | Descrição | Link |
+|-----------------|------------|----------------|-----------|------|
+| BERT               | 110M         | Classificação de Texto, Q&A | Modelo bidirecional com base no Transformer.| [Análise BERT](./modelos/BERT.md)                       |
+| GPT-Neo 125M       | 125M         | Geração de texto         | Versão leve do GPT-Neo para tarefas simples.| [Análise GPT-Neo](./modelos/GPTNeo.md)                     |
+|                 |            |                |           |      |
 
-| Modelo                     | Descrição                                        | Link para Análise                                                        |
-|----------------------------|--------------------------------------------------|--------------------------------------------------------------------------|
-| Alpaca                     | Modelo de instruções fortes e replicável.        | [Análise Alpaca](./modelos/Alpaca.md)                                    |
-| BERT                       | Modelo Bidirecional da Google.                   | [Análise BERT](./modelos/BERT.md)                                        |
-| BLOOM                      | LLM multilinguístico com foco ético.             | [Análise BLOOM](./modelos/BLOOM.md)                                      |
-| Falcon                     | Modelo de alto nível, com até 180B de parâmetros.| [Análise Falcon]                                                         |
-| Gemma                      | Uma das LLMs open-source da Google.              | [Análise Gemma]                                                          |
-| Gemma 2                    | Evolução da LLM Gemma.                           | [Análise Gemma 2]                                                        |
-| GPT-Neo                    | Modelo open-source para tarefas gerais.          | [Análise GPT-Neo](./modelos/GPTNeo.md)                                   |
-| GPT-NeoX                   | Evolução do GPT Neo, com maior escalabilidade.   | [Análise GPT-NeoX]                                                       |
-| LLaMA                      | Focado em pesquisa e acessibilidade.             | [Análise LLaMA]                                                          |
-| LLaMA 2                    | Evolução da LLM LLaMA                            | [Análise LLaMA 2]                                                        |
-| LLaMA 3                    | Terceira geração da família LLaMA.               | [Análise LLaMA 3](./modelos/Llama3.md)                                                        |               
-| Mistral NeMo               | Modelo multilíngue com alta performance.         | [Análise Mistral NeMo](./modelos/MistralNemo.md)                                                        |
-| Pixtral                    | Modelo multimodal especializado em imagem e texto. | [Análise Pixtral](./modelos/Pixtral.md)                                                        |
-| Codestral Mamba            | Modelo especializado em textos de código.        | [Análise Codestral Mamba](./modelos/CodestralMamba.md)                                                        |
-| OPT                        | Otimizado para eficiência e desempenho.          | [Análise OPT]                                                            |
-| Pythia                     | Modelo para análise de comportamento.            | [Análise Pythia]                                                         |
-| Vicuna                     | LLM muito utilizada em aplicações de saúde.      | [Análise Vicuna]                                                         |
+---
+## Modelos Robustos
+Modelos grandes e avançados, projetados para resolver problemas complexos com grande capacidade de generalização.
+
+| Nome do Modelo | Parâmetros | Tarefas Comuns | Descrição | Link |
+|-----------------|------------|----------------|-----------|------|
+| Alpaca             | 7B           | Geração de texto, Instruções  | Modelo instruído com base no LLaMA, voltado para pesquisa.| [Análise Alpaca](./modelos/Alpaca.md)   |
+| BLOOM              | 176B         | Geração de texto, Multilíngue | LLM multilinguístico focado em acessibilidade.    | [Análise BLOOM](./modelos/BLOOM.md)             |
+| Falcon             | 180B         | Multitarefa, Multilíngue      | Modelo robusto com alta escalabilidade.           | [Análise Falcon]                                |
+| GPT-NeoX           | 20B          | Geração de texto, Tradução    | Versão mais poderosa do GPT-Neo para tarefas robustas.| [Análise GPT-NeoX]                          |
+| LLaMA 2            | 13B e 70B    | NLP Geral, Tradução           | Segunda geração do LLaMA com maior desempenho.    | [Análise LLaMA 2]                               |
+| LLaMA 3            | 70B          | Multitarefa                   | Terceira geração da família LLaMA.                | [Análise LLaMA 3](./modelos/Llama3.md)          |
+
+
+---
+## Modelos Brasileiros
+Modelos desenvolvidos especificamente para a língua portuguesa, focando em aplicações no Brasil.
+
+| Nome do Modelo | Parâmetros | Tarefas Comuns | Descrição | Link |
+|-----------------|------------|----------------|-----------|------|
+| Em breve           | -            | -                        | Modelos brasileiros serão adicionados aqui. | -                                                          |
+|                 |            |                |           |      |
+|                 |            |                |           |      |
 
 ---
 ## 🤝 Contribuição
