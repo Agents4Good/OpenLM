@@ -1,4 +1,4 @@
-<h1 align="center">Reviews de LLMs Open-Source</h1>
+<h1 align="center">Reviews de LMs Open-Source</h1>
 
 > Repositório dedicado à análise e documentação de LLMs open-source, com receitas práticas para seu uso responsável.
 
