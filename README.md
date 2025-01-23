@@ -12,10 +12,10 @@ Modelos leves, otimizados para rodar localmente em dispositivos com recursos com
 | Cerebras GPT      | 111M, 3B         | -                         | Eficiência em termos de computação.           | -                                            |
 | DCLM              | 1B               | Dedução lógica            | Raciocínio de senso comum.                    | -                                            |
 | Qwen2             | 500M, 1B, 7B     | -                         | Escalável e de baixo custo de hardware.       | -                                            |
-| LLaMA 3.1         | 8B               | Multitarefa               | Potência e Eficiência equilibradas.           | -                                            |
+| LLaMA 3.1         | 8B               | Multitarefa               | Potência, mas não é tão leve.                 | -                                            |
 | LaMini GPT        | 775M, 2B         | Multilinguagem            | Acompanhamento de instruções.                 | -                                            |
 | MiniCPM           | 1B, 4B           | -                         | Desempenho equilibrado.                       | -                                            |
-| Mistral Nemo      | 12B              | Tarefas Complexas de NLP  | -                                             | -                                            |
+| Mistral Nemo      | 12B              | Tarefas Complexas de NLP  | Potência, mas não é tão leve.                 | -                                            |
 | OpenELM           | 270M, 3B         | Multitarefa               | Eficiência energética.                        | -                                            |
 | Phi-3.5           | 4B               | Multilinguagem            | Longo comprimento de contexto.                | -                                            |
 | Pythia            | 160M, 3B         | Geração de Código         | -                                             | -                                            |
