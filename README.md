@@ -1,4 +1,4 @@
-<h1 align="center">Catálogo de LMs Open-Source</h1>
+<h1 align="center">Guia para Modelos de Linguagem</h1>
 
 > Repositório dedicado à análise e documentação de Modelos de Linguagem open-source, com receitas práticas para seu uso responsável.
 
