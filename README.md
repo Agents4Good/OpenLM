@@ -6,52 +6,51 @@
 ## ⭐ Modelos em Destaque
 > Modelos que são usados no projeto Agents4Good.
 
-|   Nome do Modelo  | Parâmetros    |    Arquitetura            |   Descrição                                   |     Link                                                         |
-|-------------------|---------------|---------------------------|-----------------------------------------------|------------------------------------------------------------------|
-| DeepSeek          | 7B, 67B       |       MoE                 | DeepSeek-R1, um modelo de linguagem avançado e open-source, que foi projetado para expandir os limites do raciocínio e da tomada de decisão.                                                                                              | [Tutorial e Review](./modelos/deepSeek/deepSeek.md)              |
+|   Nome do Modelo  | Parâmetros    | Descrição                 | Link                                                                                                                                           |
+|-------------------|---------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| DeepSeek          | 1.5B até 70B  | Modelo mais eficiente entre os de código aberto e rivaliza com os modelos de código fechado mais avançados do mundo. | [Tutorial e Review](./modelos/deepSeek/deepSeek.md) |
 
 ---
 ## 🪶 Modelos Leves  
 > Modelos leves, otimizados para rodar localmente em dispositivos com recursos computacionais limitados.
 
-|   Nome do Modelo  | Parâmetros    |    Arquitetura            |   Descrição                                   |     Link                                     |
-|-------------------|---------------|---------------------------|-----------------------------------------------|----------------------------------------------|
-| Cerebras GPT      | -             | -                         | -                                             | -                                            |
-| DCLM              | -             | -                         | -                                             | -                                            |
-| Granite           | -             | -                         | -                                             | -                                            |
-| Qwen2             | -             | -                         | -                                             | -                                            |
-| LLaMA 3.1         | -             | -                         | -                                             | -                                            |
-| LaMini GPT        | -             | -                         | -                                             | -                                            |
-| MiniCPM           | -             | -                         | -                                             | -                                            |
-| Mistral Nemo      | -             | -                         | -                                             | -                                            |
-| OpenELM           | -             | -                         | -                                             | -                                            |
-| Phi-3.5           | -             | -                         | -                                             | -                                            |
-| Pythia            | -             | -                         | -                                             | -                                            |
-| Raposa            | -             | -                         | -                                             | -                                            |
-| TinyLama          | -             | -                         | -                                             | -                                            |
+|   Nome do Modelo  | Parâmetros    | Descrição                 | Link                                          |
+|-------------------|---------------|---------------------------|-----------------------------------------------|
+| Cerebras GPT      | -             | -                         | -                                             |
+| DCLM              | -             | -                         | -                                             |
+| Granite           | -             | -                         | -                                             |
+| Qwen2             | -             | -                         | -                                             |
+| LLaMA 3.1         | -             | -                         | -                                             |
+| LaMini GPT        | -             | -                         | -                                             |
+| MiniCPM           | -             | -                         | -                                             |
+| Mistral Nemo      | -             | -                         | -                                             |
+| OpenELM           | -             | -                         | -                                             |
+| Phi-3.5           | -             | -                         | -                                             |
+| Pythia            | -             | -                         | -                                             |
+| Raposa            | -             | -                         | -                                             |
+| TinyLama          | -             | -                         | -                                             |
 
 ---
 ## 🏋️‍♂️ Modelos Robustos  
 > Modelos grandes e avançados, projetados para resolver problemas complexos com grande capacidade de generalização.
 
-| Nome do Modelo | Parâmetros   |    Arquitetura                |   Descrição                                                |     Link                                                |
-|----------------|--------------|-------------------------------|------------------------------------------------------------|---------------------------------------------------------|
-| Alpaca         | -            | -                             | -                                                          | -                                                       |
-| BERT           | -            | -                             | -                                                          | -                                                       |
-| BLOOM          | -            | -                             | -                                                          | -                                                       |
-| Falcon         | -            | -                             | -                                                          | -                                                       |
-| GPT-NeoX       | -            | -                             | -                                                          | -                                                       |
-| OPT            | -            | -                             | -                                                          | -                                                       |
+| Nome do Modelo | Parâmetros   |  Descrição                                                |     Link                                                |
+|----------------|--------------|-----------------------------------------------------------|---------------------------------------------------------|
+| Alpaca         | -            |                                                           | -                                                       |
+| BERT           | -            | -                                                         | -                                                       |
+| BLOOM          | -            | -                                                         | -                                                       |
+| Falcon         | -            | -                                                         | -                                                       |
+| GPT-NeoX       | -            | -                                                         | -                                                       |
+| OPT            | -            | -                                                         | -                                                       |
 
 ---
 ## 🇧🇷 Modelos Brasileiros  
 > Modelos desenvolvidos especificamente para a língua portuguesa, focando em aplicações no Brasil.
 
-|   Nome do Modelo  | Parâmetros   | Arquitetura      |   Descrição                                 | Link   |
-|-------------------|--------------|------------------|---------------------------------------------|--------|
-| Sabiá-2           |  -           | -                | -                                           | -      |
-|                   |              |                  |                                             |        |
-|                   |              |                  |                                             |        |
+|   Nome do Modelo  | Parâmetros   | Descrição                               | Link   |
+|-------------------|--------------|-----------------------------------------|--------|
+| Sabiá-2           |  -           | -                                       | -      |
+|                   |              |                                         |        |
 
 ---
 ## 🤝 Contribuição  
