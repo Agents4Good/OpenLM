@@ -18,9 +18,9 @@
 
 DeepSeek introduziu uma nova abordagem para melhorar as capacidades de raciocínio de modelos de linguagem por meio de aprendizado por reforço (RL), conforme detalhado em seu recente artigo sobre o DeepSeek-R1.
 
-Esta pesquisa representa um avanço significativo na forma como podemos aprimorar a capacidade de modelos para resolver problemas complexos usando apenas aprendizado por reforço, sem depender fortemente de ajuste fino supervisionado.
+Treinamento que usa apenas aprendizado por reforço, sem depender de ajuste fino supervisionado.
 
-DeepSeek-R1 é o modelo de raciocínio de primeira geração da DeepSeek, com desempenho comparável ao OpenAI-o1. Ele está disponível em várias versões, otimizadas para diferentes capacidades computacionais:
+DeepSeek-R1 é o modelo de raciocínio de primeira geração da DeepSeek, com desempenho superior ao OpenAI-o1. Ele está disponível em várias versões, otimizadas para diferentes capacidades computacionais:
 
 | Tamanho do Modelo | Descrição                                                                 |
 |-------------------|---------------------------------------------------------------------------|
