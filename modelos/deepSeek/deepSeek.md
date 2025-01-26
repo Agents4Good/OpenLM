@@ -24,13 +24,12 @@ DeepSeek-R1 é o modelo de raciocínio de primeira geração da DeepSeek, com de
 
 | Tamanho do Modelo | Descrição                                                                 |
 |-------------------|---------------------------------------------------------------------------|
-| **1.5B**          | Versão leve, otimizada para inferência rápida em dispositivos de borda.    |
-| **7B**            | Modelo balanceado, adequado para tarefas gerais de raciocínio.             |
-| **8B**            | Maior precisão e melhor compreensão contextual.                           |
-| **14B**           | Capacidades aprimoradas de raciocínio e solução de problemas.              |
-| **32B**           | Análise lógica mais forte e saídas detalhadas.                            |
-| **70B**           | Versão avançada para aplicações de IA de alto nível.                      |
-| **671B**          | Modelo Mixture-of-Experts (MoE), ativando 37 bilhões de parâmetros por token para desempenho de raciocínio de última geração. |
+| DeepSeek-R1 **1.5B**          | Versão leve, otimizada para inferência rápida em dispositivos de borda.    |
+| DeepSeek-R1 **7B**            | Modelo balanceado, adequado para tarefas gerais de raciocínio.             |
+| DeepSeek-R1 **8B**            | Maior precisão e melhor compreensão contextual.                           |
+| DeepSeek-R1 **14B**           | Capacidades aprimoradas de raciocínio e solução de problemas.              |
+| DeepSeek-R1 **32B**           | Análise lógica mais forte e saídas detalhadas.                            |
+| DeepSeek-R1 **70B**           | Versão avançada para aplicações de IA de alto nível.                      |
 
 **Atenção!** 
 > Não confunda DeepSeek-LLM com DeepSeek-R1.
@@ -106,13 +105,12 @@ Além disso, por ser open-source sob a licença MIT, o DeepSeek-R1 oferece diver
 
 | Versão do Modelo | VRAM (GPU)      | RAM (CPU)     | Armazenamento |
 |------------------|-----------------|---------------|---------------|
-| 1.5B            | 4GB+           | 8GB+          | 5GB           |
-| 7B              | 12GB+          | 16GB+         | 10GB          |
-| 8B              | 16GB+          | 32GB+         | 15GB          |
-| 14B             | 24GB+          | 64GB+         | 30GB          |
-| 32B             | 48GB+          | 128GB+        | 60GB          |
-| 70B             | 80GB+          | 256GB+        | 120GB         |
-| 671B (MoE)      | 4x A100 GPUs (320GB VRAM) | 512GB+ | 500GB+       |
+| DeepSeek-R1 **1.5B**            | 4GB+           | 8GB+          | 5GB           |
+| DeepSeek-R1 **7B**              | 12GB+          | 16GB+         | 10GB          |
+| DeepSeek-R1 **8B**              | 16GB+          | 32GB+         | 15GB          |
+| DeepSeek-R1 **14B**             | 24GB+          | 64GB+         | 30GB          |
+| DeepSeek-R1 **32B**             | 48GB+          | 128GB+        | 60GB          |
+| DeepSeek-R1 **70B**             | 80GB+          | 256GB+        | 120GB         |
 
 ---
 ## 8. Executando o DeepSeek-R1 Localmente com Ollama
