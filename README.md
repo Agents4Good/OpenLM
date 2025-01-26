@@ -8,7 +8,7 @@
 
 |   Nome do Modelo  | Parâmetros    |    Arquitetura            |   Descrição                                   |     Link                                                         |
 |-------------------|---------------|---------------------------|-----------------------------------------------|------------------------------------------------------------------|
-| DeepSeek          | 7B, 67B       |       MoE                 |Modelo de linguagem avançado com 67 bilhões de parâmetros, treinado em 2 trilhões de tokens em inglês e chinês. As versões 7B/67B foram disponibilizadas como open source para a comunidade de pesquisa.                                   | [Tutorial e Review](./modelos/deepSeek/deepSeek.md)              |
+| DeepSeek          | 7B, 67B       |       MoE                 | DeepSeek-R1, um modelo de linguagem avançado e open-source, que foi projetado para expandir os limites do raciocínio e da tomada de decisão.                                                                                              | [Tutorial e Review](./modelos/deepSeek/deepSeek.md)              |
 
 ---
 ## 🪶 Modelos Leves  
