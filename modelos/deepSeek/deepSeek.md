@@ -39,9 +39,10 @@ DeepSeek-R1 é o modelo de raciocínio de primeira geração da DeepSeek, com de
 ### Huggingface
 |         Model         |                                Download                                    |                  
 |:---------------------:|--------------------------------------------------------------------------: |
-| DeepSeek-R1-Distill-Qwen-1.5B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B) |
-| DeepSeek-R1-Distill-Qwen-7B   | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)   |
-| DeepSeek-R1-Distill-Llama-8B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B)   |
+| DeepSeek-R1-Distill-Qwen-1.5B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)   |
+| DeepSeek-R1-Distill-Qwen-7B   | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)     |
+| DeepSeek-R1-Distill-Llama-8B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B)    |
+| DeepSeek-R1-Distill-Llama-70B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B)   |
 | DeepSeek LLM 7B Base  | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/deepseek-llm-7b-base)  |
 | DeepSeek LLM 7B Chat  | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)  |
 | DeepSeek LLM 67B Base | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/deepseek-llm-67b-base) |
