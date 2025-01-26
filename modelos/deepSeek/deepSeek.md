@@ -80,10 +80,6 @@ O DeepSeek-R1 não é um modelo único, mas uma família de modelos que inclui: 
 | DeepSeek-R1-Distill-Qwen-7B   | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)     |
 | DeepSeek-R1-Distill-Llama-8B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B)    |
 | DeepSeek-R1-Distill-Llama-70B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B)   |
-| DeepSeek LLM 7B Base  | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/deepseek-llm-7b-base)  |
-| DeepSeek LLM 7B Chat  | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)  |
-| DeepSeek LLM 67B Base | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/deepseek-llm-67b-base) |
-| DeepSeek LLM 67B Chat | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat) |
 
 ---
 ## 5. Benchmarks
