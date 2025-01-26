@@ -105,3 +105,15 @@ ollama run deepseek-r1:7b
 ```
 
 Este comando permite enviar prompts e receber respostas em tempo real.
+
+---
+## 7. Aplicações que usam o DeepSeek
+
+> Em construção
+
+---
+## 8. Fontes
+
+- [Artigo Medium](https://medium.com/@pankaj_pandey/deepseek-r1-an-advanced-reasoning-model-for-ai-applications-using-ollama-0497a4899cb2)
+- [Site Oficial](https://www.deepseek.com/)
+- [HuggingFace](https://huggingface.co/deepseek-ai)
