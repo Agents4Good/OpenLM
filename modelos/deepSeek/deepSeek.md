@@ -9,8 +9,7 @@
 </div>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2401.02954"><b>Paper - DeepSeek LLM</b></a><br>
-  <a href="https://arxiv.org/abs/2501.12948"><b>Paper - DeepSeek R1</b></a>
+  <a href="https://arxiv.org/abs/2501.12948"><b>📜 Paper - DeepSeek R1</b></a>
 </p>
 
 ---
@@ -32,9 +31,10 @@ DeepSeek-R1 é o modelo de raciocínio de primeira geração da DeepSeek, com de
 | DeepSeek-R1 **70B**           | Versão avançada para aplicações de IA de alto nível.                      |
 
 **Atenção!** 
-> Não confunda DeepSeek-LLM com DeepSeek-R1.
+> Não confunda DeepSeek com DeepSeek-R1, com DeepSeek-LLM...
 
-DeepSeek-LLM é um conceito geral, que refere-se à família de modelos da DeepSeek como um todo.<br>
+DeepSeek é uma companhia chinesa focada em Inteligência Artificial.<br>
+DeepSeek-LLM é um modelo de larga escala, mais pesado e de propósito geral.<br>
 DeepSeek-R1 é um modelo especializado, voltado para raciocínio lógico e resolução de problemas.
 
 ---
@@ -76,6 +76,8 @@ O DeepSeek-R1 não é um modelo único, mas uma família de modelos que inclui: 
 ### Huggingface
 |         Model         |                                Download                                    |                  
 |:---------------------:|--------------------------------------------------------------------------: |
+| DeepSeek-R1-Zero      | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero)      |
+| DeepSeek-R1           | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1)           |
 | DeepSeek-R1-Distill-Qwen-1.5B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)   |
 | DeepSeek-R1-Distill-Qwen-7B   | 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)     |
 | DeepSeek-R1-Distill-Llama-8B	| 🤗 [HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B)    |
@@ -169,16 +171,11 @@ print(response.choices[0].message.content)
 ```
 
 ---
-## 10. Aplicações que usam o DeepSeek
-
-> Em construção
-
----
-## 11. Fontes
+## 10. Fontes
 
 - [Artigo DeepSeek-R1](https://arxiv.org/abs/2501.12948)
-- [Artigo DeepSeek-LLM](https://arxiv.org/abs/2401.02954)
+- [GitHub Oficial DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/README.md?plain=1)
 - [Artigo Medium - PankaJ](https://medium.com/@pankaj_pandey/deepseek-r1-an-advanced-reasoning-model-for-ai-applications-using-ollama-0497a4899cb2)
 - [Artigo Medium - Isaak Kamau](https://medium.com/@isaakmwangi2018/a-simple-guide-to-deepseek-r1-architecture-training-local-deployment-and-hardware-requirements-300c8799112)
 - [Site Oficial](https://www.deepseek.com/)
-- [HuggingFace](https://huggingface.co/deepseek-ai)
+- [HuggingFace](https://huggingface.co/collections/deepseek-ai/deepseek-r1-678e1e131c0169c0bc89728d)
