@@ -81,10 +81,12 @@ Os modelos Granite Code são treinados com 3,5 a 4,5 trilhões de tokens de dado
 
 | Modelo               | Caminho Hugging Face                                         |
 |----------------------|-------------------------------------------------------------|
-| Granite-3B           | [🤗 HuggingFace](https://huggingface.co/ibm-granite/granite-3b-code-base-2k) |
-| Granite-8B           | [🤗 HuggingFace](https://huggingface.co/ibm-granite/granite-8b-code-base-4k) |
-| Granite-20B          | [🤗 HuggingFace](https://huggingface.co/ibm-granite/granite-20b-code-base-8k) |
-| Granite-34B          | [🤗 HuggingFace](https://huggingface.co/ibm-granite/granite-34b-code-base-8k) |
+| Granite-3B-Instruct  | [🤗 HuggingFace](https://huggingface.co/ibm-granite/granite-3.1-3b-a800m-instruct) |
+| Granite-3B-Base      | [🤗 HuggingFace](https://huggingface.co/ibm-granite/granite-3.1-3b-a800m-base) |
+| Granite-8B-Instruct  | [🤗 HuggingFace](https://huggingface.co/ibm-granite/granite-3.1-8b-instruct) |
+| Granite-8B-Base      | [🤗 HuggingFace](http://huggingface.co/ibm-granite/granite-3.1-8b-base)
+
+Veja outros modelos Granite: https://huggingface.co/ibm-granite
 
 ---
 ## 6. Benchmarks
