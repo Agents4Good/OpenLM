@@ -15,7 +15,7 @@
 ---
 ## 1. Introdução
 
-DeepSeek é uma companhia chinesa que introduziu uma nova abordagem de treinamento para modelos de linguagem por meio do **aprendizado por reforço (RL)**, conforme detalhado em seu recente artigo, "**DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning**".
+DeepSeek é uma companhia chinesa que introduziu uma nova abordagem de treinamento para modelos de linguagem por meio do **aprendizado por reforço (RL)**, conforme detalhado em seu recente artigo, "**DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning** (https://arxiv.org/abs/2501.12948)".
 
 Treinamento que usa apenas aprendizado por reforço, sem depender de ajuste fino supervisionado.
 
