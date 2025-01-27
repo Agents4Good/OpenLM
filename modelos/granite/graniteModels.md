@@ -11,8 +11,7 @@
 ---
 ## 1. Introdução
 
-Os modelos Granite representam uma família de modelos desenvolvidos pela **IBM**, projetados para atender às necessidades empresariais, incluindo análise de dados,
-assistentes digitais e automação de processos. Lançados em 2024, os Granite são otimizados para desempenho, eficiência e sustentabilidade em aplicações corporativas.
+Os modelos Granite representam uma família de modelos desenvolvidos pela **IBM**. Lançados em 2024, os Granite são otimizados para desempenho, eficiência e sustentabilidade em aplicações corporativas.
 
 Conforme descrito no artigo “**Granite Models: A Sustainable Foundation for Enterprise AI**” ([arXiv:2405.04324](https://arxiv.org/abs/2405.04324)),
 os modelos utilizam técnicas de treinamento avançadas para maximizar eficiência computacional.
