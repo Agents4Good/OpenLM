@@ -7,14 +7,14 @@
 
 | Nome do Modelo | Parâmetros | Descrição | Análise | Tutorial |
 |----------------|------------|-----------|---------|----------|
-| DeepSeek - R1 | 1.5B até 70B | Modelo mais eficiente entre os de código aberto e rivaliza com os modelos de código fechado, como os da OpenAI. |[Análise](./modelos/deepSeek/deepSeek.md)         |        - |
+| DeepSeek - R1 | 1.5B até 70B | Modelo mais eficiente entre os de código aberto e rivaliza com os modelos de código fechado, como os da OpenAI. |[Análise](./modelos/deepSeek/deepSeek.md) | - |
 
 ---
 ## 🪶 Modelos Leves  
 
 |   Nome do Modelo  | Parâmetros    | Descrição                 | Análise | Tutorial |
 |-------------------|---------------|---------------------------|---------|----------|
-| Cerebras GPT      | -             | -                         | -       | -        |
+| Cerebras GPT      | 111M até 13B | Primeiro modelo open-source projetado para eficiência de hardware. | [Análise](./modelos/cerebras/cerebrasGPT.md) | - |
 | DCLM              | -             | -                         | -       | -        |
 | Granite           | -             | -                         | -       | -        |
 | Qwen2             | -             | -                         | -       | -        |
