@@ -7,7 +7,7 @@
 
 | Nome do Modelo | Parâmetros | Descrição | Análise | Tutorial |
 |----------------|------------|-----------|---------|----------|
-| DeepSeek - R1 | 1.5B até 70B | Modelo mais eficiente entre os de código aberto e rivaliza com os modelos de código fechado, como os da OpenAI. |[Análise](./modelos/deepSeek/deepSeek.md) | - |
+| DeepSeek - R1 | 1.5B até 70B | Modelo mais eficiente entre os de código aberto e rivaliza com os modelos de código fechado, como os da OpenAI. |[Análise](./modelos/deepSeekR1/deepSeek.md) | - |
 
 ---
 ## 🪶 Modelos Leves  
