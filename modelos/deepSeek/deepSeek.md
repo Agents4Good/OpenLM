@@ -15,7 +15,7 @@
 ---
 ## 1. Introdução
 
-DeepSeek introduziu uma nova abordagem para melhorar as capacidades de raciocínio de modelos de linguagem por meio de aprendizado por reforço (RL), conforme detalhado em seu recente artigo sobre o DeepSeek-R1.
+DeepSeek é uma companhia chinesa que introduziu uma nova abordagem de treinamento para modelos de linguagem por meio do **aprendizado por reforço (RL)**, conforme detalhado em seu recente artigo, "**DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning**".
 
 Treinamento que usa apenas aprendizado por reforço, sem depender de ajuste fino supervisionado.
 
@@ -31,7 +31,7 @@ DeepSeek-R1 é o modelo de raciocínio de primeira geração da DeepSeek, com de
 | DeepSeek-R1 **70B**           | Versão avançada para aplicações de IA de alto nível.                      |
 
 **Atenção!** 
-> Não confunda DeepSeek com DeepSeek-R1, com DeepSeek-LLM...
+> Não confunda DeepSeek, DeepSeek-R1, DeepSeek-LLM...
 
 DeepSeek é uma companhia chinesa focada em Inteligência Artificial.<br>
 DeepSeek-LLM é um modelo de larga escala, mais pesado e de propósito geral.<br>
@@ -86,7 +86,7 @@ O DeepSeek-R1 não é um modelo único, mas uma família de modelos que inclui: 
 ---
 ## 5. Benchmarks
 
-> Consulte aqui: https://github.com/deepseek-ai/DeepSeek-LLM/blob/main/README.md#3-evaluation-results
+> Consulte aqui: https://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#4-evaluation-results
 
 ---
 ## 6. Comparação com outros Modelos
@@ -174,7 +174,7 @@ print(response.choices[0].message.content)
 ## 10. Fontes
 
 - [Artigo DeepSeek-R1](https://arxiv.org/abs/2501.12948)
-- [GitHub Oficial DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/README.md?plain=1)
+- [GitHub Oficial DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
 - [Artigo Medium - PankaJ](https://medium.com/@pankaj_pandey/deepseek-r1-an-advanced-reasoning-model-for-ai-applications-using-ollama-0497a4899cb2)
 - [Artigo Medium - Isaak Kamau](https://medium.com/@isaakmwangi2018/a-simple-guide-to-deepseek-r1-architecture-training-local-deployment-and-hardware-requirements-300c8799112)
 - [Site Oficial](https://www.deepseek.com/)
