@@ -73,7 +73,7 @@ O DeepSeek-R1 não é um modelo único, mas uma família de modelos que inclui: 
 > "Base" refere-se a modelos para tarefas gerais de NLP.<br>
 > "Chat" refere-se a modelos ajustados para tarefas conversacionais.
 
-### Huggingface
+### HuggingFace
 |         Model         |                                Download                                    |                  
 |:---------------------:|--------------------------------------------------------------------------: |
 | DeepSeek-R1-Zero      | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero)      |
