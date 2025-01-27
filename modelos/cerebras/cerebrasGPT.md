@@ -11,6 +11,8 @@
 ---
 ## 1. Introdução
 
+> "GPT" refere-se aos modelos generativos baseados na arquitetura Transformer.
+
 Cerebras Systems, conhecida por seus avanços em hardware para IA, desenvolveu o **Cerebras GPT**, uma família de modelos de linguagem aberta, projetada com foco em eficiência computacional. O artigo intitulado **"Cerebras-GPT: A Family of Open, Compute-Efficient Large Language Models"** detalha os fundamentos e a eficiência desses modelos.
 
 Os modelos Cerebras GPT foram treinados usando arquiteturas de alto desempenho e são otimizados para execução eficiente em sistemas modernos.
