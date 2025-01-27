@@ -14,12 +14,9 @@
 
 |   Nome do Modelo  | Parâmetros    | Descrição                 | Análise | Tutorial |
 |-------------------|---------------|---------------------------|---------|----------|
-| Cerebras GPT      | 111M até 13B | Primeiro modelo open-source projetado para eficiência de hardware. | [Análise](./modelos/cerebras/cerebrasGPT.md) | - |
-| Granite           | -             | -                         | -       | -        |
-| Qwen2             | -             | -                         | -       | -        |
-| LLaMA 3           | -             | -                         | -       | -        |
+| Cerebras GPT      | 111M até 13B  | Primeiro modelo open-source projetado para eficiência de hardware. | [Análise](./modelos/cerebras/cerebrasGPT.md) | - |
+| Granite           | 2B até 34B    | Granite é uma série de modelos de linguagem criados pela IBM para aplicativos corporativos. | [Análise](./modelos/granite/graniteModels.md) | - |
 | LaMini GPT        | -             | -                         | -       | -        |
-| MiniCPM           | -             | -                         | -       | -        |
 | Mistral Nemo      | -             | -                         | -       | -        |
 | Phi-4             | -             | -                         | -       | -        |
 | Pythia            | -             | -                         | -       | -        |
@@ -34,6 +31,9 @@
 | BLOOM          | -            | -           | -       | -        |
 | Falcon         | -            | -           | -       | -        |
 | GPT-NeoX       | -            | -           | -       | -        |
+| LLaMA          | -            | -           | -       | -        |
+| LLaMA 2        | -            | -           | -       | -        |
+| LLaMA 3        | -            | -           | -       | -        |
 | OPT            | -            | -           | -       | -        |
 
 ---
