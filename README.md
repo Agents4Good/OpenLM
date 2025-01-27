@@ -15,18 +15,14 @@
 |   Nome do Modelo  | Parâmetros    | Descrição                 | Análise | Tutorial |
 |-------------------|---------------|---------------------------|---------|----------|
 | Cerebras GPT      | 111M até 13B | Primeiro modelo open-source projetado para eficiência de hardware. | [Análise](./modelos/cerebras/cerebrasGPT.md) | - |
-| DCLM              | -             | -                         | -       | -        |
 | Granite           | -             | -                         | -       | -        |
 | Qwen2             | -             | -                         | -       | -        |
-| LLaMA 3.1         | -             | -                         | -       | -        |
+| LLaMA 3           | -             | -                         | -       | -        |
 | LaMini GPT        | -             | -                         | -       | -        |
 | MiniCPM           | -             | -                         | -       | -        |
 | Mistral Nemo      | -             | -                         | -       | -        |
-| OpenELM           | -             | -                         | -       | -        |
-| Phi-3.5           | -             | -                         | -       | -        |
+| Phi-4             | -             | -                         | -       | -        |
 | Pythia            | -             | -                         | -       | -        |
-| Raposa            | -             | -                         | -       | -        |
-| TinyLama          | -             | -                         | -       | -        |
 
 ---
 ## 🏋️‍♂️ Modelos Robustos  
