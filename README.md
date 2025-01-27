@@ -23,13 +23,9 @@
 
 | Nome do Modelo | Parâmetros   |  Descrição  | Análise | Tutorial |
 |----------------|--------------|-------------|---------|----------|
-| Alpaca         | -            | -           | -       | -        |
 | BERT           | -            | -           | -       | -        |
 | BLOOM          | -            | -           | -       | -        |
 | Falcon         | -            | -           | -       | -        |
-| GPT-NeoX       | -            | -           | -       | -        |
-| LLaMA          | -            | -           | -       | -        |
-| LLaMA 2        | -            | -           | -       | -        |
 | LLaMA 3        | -            | -           | -       | -        |
 | OPT            | -            | -           | -       | -        |
 
