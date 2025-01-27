@@ -4,7 +4,6 @@
 
 ---
 ## ⭐ Modelos em Destaque
-> Modelos que são usados no projeto Agents4Good.
 
 | Nome do Modelo | Parâmetros | Descrição | Análise | Tutorial |
 |----------------|------------|-----------|---------|----------|
@@ -12,7 +11,6 @@
 
 ---
 ## 🪶 Modelos Leves  
-> Modelos leves, otimizados para rodar localmente em dispositivos com recursos computacionais limitados.
 
 |   Nome do Modelo  | Parâmetros    | Descrição                 | Análise | Tutorial |
 |-------------------|---------------|---------------------------|---------|----------|
@@ -32,25 +30,23 @@
 
 ---
 ## 🏋️‍♂️ Modelos Robustos  
-> Modelos grandes e avançados, projetados para resolver problemas complexos com grande capacidade de generalização.
 
-| Nome do Modelo | Parâmetros   |  Descrição  | Link | Tutorial |
-|----------------|--------------|-------------|------|----------|
-| Alpaca         | -            | -           | -    | -        |
-| BERT           | -            | -           | -    | -        |
-| BLOOM          | -            | -           | -    | -        |
-| Falcon         | -            | -           | -    | -        |
-| GPT-NeoX       | -            | -           | -    | -        |
-| OPT            | -            | -           | -    | -        |
+| Nome do Modelo | Parâmetros   |  Descrição  | Análise | Tutorial |
+|----------------|--------------|-------------|---------|----------|
+| Alpaca         | -            | -           | -       | -        |
+| BERT           | -            | -           | -       | -        |
+| BLOOM          | -            | -           | -       | -        |
+| Falcon         | -            | -           | -       | -        |
+| GPT-NeoX       | -            | -           | -       | -        |
+| OPT            | -            | -           | -       | -        |
 
 ---
 ## 🇧🇷 Modelos Brasileiros  
-> Modelos desenvolvidos especificamente para a língua portuguesa, focando em aplicações no Brasil.
 
-|   Nome do Modelo  | Parâmetros   | Descrição | Link | Tutorial |
-|-------------------|--------------|---------- |------|----------|
-| Sabiá-2           |  -           | -         | -    |          |
-|                   |              |           |      |          |
+|   Nome do Modelo  | Parâmetros   | Descrição | Análise | Tutorial |
+|-------------------|--------------|---------- |---------|----------|
+| Sabiá-2           |  -           | -         | -       | -        |
+|                   |              |           |         |          |
 
 ---
 ## 🤝 Contribuição  
