@@ -14,6 +14,7 @@
 
 |   Nome do Modelo  | Parâmetros    | Descrição                 | Análise | Tutorial |
 |-------------------|---------------|---------------------------|---------|----------|
+| BERT              | 110M, 340M    | Modelo Bidirecional da Google AI | [Análise](./modelos/bert/bertModel.md) | -       |
 | Cerebras GPT      | 111M até 13B  | Primeiro modelo open-source projetado para eficiência de hardware. | [Análise](./modelos/cerebras/cerebrasGPT.md) | - |
 | Granite Code Models | 3B até 34B  | Série de modelos de linguagem criados pela IBM para geração de código. | [Análise](./modelos/granite/graniteModels.md) | - |
 | Phi-4             | 14B | Modelo de linguagem da Microsoft especializado em raciocínio complexo. | [Análise](./modelos/phi/phi4.md) | -        |
@@ -23,7 +24,6 @@
 
 | Nome do Modelo | Parâmetros   |  Descrição  | Análise | Tutorial |
 |----------------|--------------|-------------|---------|----------|
-| BERT           | -            | -           | -       | -        |
 | BLOOM          | -            | -           | -       | -        |
 | Falcon         | -            | -           | -       | -        |
 | LLaMA 3        | -            | -           | -       | -        |
