@@ -58,7 +58,17 @@ Os testes de desempenho do Falcon 2 mostram superação do Llama 3 8B e desempen
 Para mais detalhes, consulte os resultados completos no [Hugging Face Leaderboard](https://huggingface.co/blog/falcon2-11b).
 
 ---
-## 6. Referências
+## 6. Visão para Linguagem (VLM)
+
+A capacidade de Visão para Linguagem (VLM - Vision-to-Language) do Falcon 2 11B VLM permite que o modelo interprete e descreva imagens em linguagem natural.
+
+- **Descrição de Imagens**: O modelo pode gerar legendas detalhadas para imagens, identificando objetos, ações e contextos.
+- **Perguntas e Respostas Visuais (VQA - Visual Question Answering)**: Permite responder perguntas baseadas em uma imagem fornecida.
+- **Assistência para Deficientes Visuais**: Pode ser usado em aplicativos que descrevem o ambiente para usuários cegos ou com baixa visão.
+- **Análise Multimodal**: Integra texto e imagens para gerar respostas mais contextualizadas, como interpretar gráficos ou diagramas.
+
+---
+## 7. Referências
 
 - [Artigo Falcon 2](https://arxiv.org/html/2407.14885v1)
 - [Hugging Face Falcon 2](https://huggingface.co/blog/falcon2-11b)
