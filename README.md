@@ -26,8 +26,7 @@
 |----------------|--------------|-------------|---------|----------|
 | BLOOM | 560M até 176B | Modelo focado em ser multilinguístico. | [Análise](./modelos/bloom/bloomModel.md) | -        |
 | Falcon         | 7B a 180B    | Altamente eficiente, mas com alto custo de hardware. | [Análise](./modelos/falcon/falconModel.md) | -        |
-| Falcon 2        | -            | -           | -       | -        |
-| Falcon 3        | -            | -           | -       | -        |
+| Falcon 2        | 11B | Único modelo de IA com capacidade de visão-para-linguagem (VLM). | [Análise](./modelos/falcon/falcon2.md) | -        |
 | LLaMA 3        | -            | -           | -       | -        |
 | OPT            | -            | -           | -       | -        |
 
