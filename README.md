@@ -2,6 +2,9 @@
 
 > Repositório dedicado à análise e documentação de Modelos de Linguagem open-source, com receitas práticas para seu uso responsável.
 
+> Em análise, temos um resumo do artigo correspondente ao modelo.<br>
+> Por sua vez, em tutorial, temos um guia completo de uso do modelo.
+
 ---
 ## ⭐ Modelos em Destaque
 
