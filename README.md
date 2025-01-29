@@ -1,4 +1,4 @@
-<h1 align="center">LMGuide</h1>
+<h1 align="center">LMGuia</h1>
 
 > Repositório dedicado à análise e documentação de Modelos de Linguagem open-source, com receitas práticas para seu uso responsável.
 
