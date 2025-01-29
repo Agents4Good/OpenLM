@@ -25,7 +25,9 @@
 | Nome do Modelo | Parâmetros   |  Descrição  | Análise | Tutorial |
 |----------------|--------------|-------------|---------|----------|
 | BLOOM | 560M até 176B | Modelo focado em ser multilinguístico. | [Análise](./modelos/bloom/bloomModel.md) | -        |
-| Falcon         | -            | -           | -       | -        |
+| Falcon         | 7B a 180B    | Altamente eficiente, mas com alto custo de hardware. | [Análise](./modelos/falcon/falconModel.md) | -        |
+| Falcon 2        | -            | -           | -       | -        |
+| Falcon 3        | -            | -           | -       | -        |
 | LLaMA 3        | -            | -           | -       | -        |
 | OPT            | -            | -           | -       | -        |
 
