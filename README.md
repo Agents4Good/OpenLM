@@ -11,6 +11,7 @@
 | Nome do Modelo | Parâmetros | Descrição | Análise | Tutorial |
 |----------------|------------|-----------|---------|----------|
 | DeepSeek - R1 | 1.5B até 70B | Modelo mais eficiente entre os de código aberto e rivaliza com os modelos de código fechado, como os da OpenAI. |[Análise](./modelos/deepSeek/deepSeekR1.md) | - |
+| LLaMA 3.2 Lightweight      | 1B, 3B | - | - | - |
 
 ---
 ## 🪶 Modelos Leves  
@@ -20,7 +21,6 @@
 | BERT              | 110M, 340M    | Modelo Bidirecional da Google AI. | [Análise](./modelos/bert/bertModel.md) | -       |
 | Cerebras GPT      | 111M até 13B  | Primeiro modelo open-source projetado para eficiência de hardware. | [Análise](./modelos/cerebras/cerebrasGPT.md) | - |
 | Granite Code Models | 3B até 34B  | Série de modelos de linguagem criados pela IBM para geração de código. | [Análise](./modelos/granite/graniteModels.md) | - |
-| LLaMA 3.2 Lightweight      | 1B, 3B | - | - | - |
 | Phi-4             | 14B | Modelo de linguagem da Microsoft especializado em raciocínio complexo. | [Análise](./modelos/phi/phi4.md) | -        |
 
 ---
