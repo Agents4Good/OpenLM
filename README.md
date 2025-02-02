@@ -3,12 +3,12 @@
 > Repositório dedicado à análise e documentação de Modelos de Linguagem open-source, com receitas práticas para seu uso responsável.
 
 > Em análise, temos um resumo do artigo correspondente ao modelo.<br>
-> Por sua vez, em tutorial, temos um guia completo de uso do modelo.
+> Por sua vez, em receitas de uso, temos um guia completo de uso do modelo.
 
 ---
 ## ⭐ Modelos em Destaque
 
-| Nome do Modelo | Parâmetros | Descrição | Análise | Tutorial |
+| Nome do Modelo | Parâmetros | Descrição | Análise | Receitas de Uso |
 |----------------|------------|-----------|---------|----------|
 | DeepSeek - R1 | 1.5B até 70B | Modelo mais eficiente entre os de código aberto e rivaliza com os modelos de código fechado, como os da OpenAI. |[Análise](./modelos/deepSeek/deepSeekR1.md) | - |
 | LLaMA 3.2 Lightweight      | 1B, 3B | - | - | - |
@@ -16,7 +16,7 @@
 ---
 ## 🪶 Modelos Leves  
 
-|   Nome do Modelo  | Parâmetros    | Descrição                 | Análise | Tutorial |
+|   Nome do Modelo  | Parâmetros    | Descrição                 | Análise | Receitas de Uso |
 |-------------------|---------------|---------------------------|---------|----------|
 | BERT              | 110M, 340M    | Modelo Bidirecional da Google AI. | [Análise](./modelos/bert/bertModel.md) | -       |
 | Cerebras GPT      | 111M até 13B  | Primeiro modelo open-source projetado para eficiência de hardware. | [Análise](./modelos/cerebras/cerebrasGPT.md) | - |
@@ -26,7 +26,7 @@
 ---
 ## 🏋️‍♂️ Modelos Robustos  
 
-| Nome do Modelo | Parâmetros   |  Descrição  | Análise | Tutorial |
+| Nome do Modelo | Parâmetros   |  Descrição  | Análise | Receitas de Uso |
 |----------------|--------------|-------------|---------|----------|
 | BLOOM | 560M até 176B | Modelo focado em ser multilinguístico. | [Análise](./modelos/bloom/bloomModel.md) | -        |
 | Falcon         | 7B a 180B    | Altamente eficiente, mas com alto custo de hardware. | [Análise](./modelos/falcon/falconModel.md) | -        |
@@ -36,7 +36,7 @@
 ---
 ## 🇧🇷 Modelos Brasileiros  
 
-|   Nome do Modelo  | Parâmetros   | Descrição | Análise | Tutorial |
+|   Nome do Modelo  | Parâmetros   | Descrição | Análise | Receitas de Uso |
 |-------------------|--------------|---------- |---------|----------|
 |                   |              |           |         |          |
 
